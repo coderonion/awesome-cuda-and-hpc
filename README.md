@@ -9,6 +9,7 @@
   - [Awesome List](#awesome-list)
     - [Awesome CUDA](#awesome-cuda)
   - [Learning Resources](#learning-resources)
+    - [HPC Learning](#hpc-learning)
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
   - [Frameworks](#frameworks)
@@ -60,6 +61,13 @@
 
 
 ## Learning Resources
+
+  - ### HPC Learning
+
+    - [flame/how-to-optimize-gemm](https://github.com/flame/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/flame/how-to-optimize-gemm?style=social"/> : How To Optimize Gemm wiki pages. [https://github.com/flame/how-to-optimize-gemm/wiki](https://github.com/flame/how-to-optimize-gemm/wiki)
+
+    - [flame/blislab](https://github.com/flame/blislab) <img src="https://img.shields.io/github/stars/flame/blislab?style=social"/> : BLISlab: A Sandbox for Optimizing GEMM. Check the [tutorial](https://github.com/flame/blislab/blob/master/tutorial.pdf) for more details.
+
 
   - ### CUDA Learning
 
@@ -660,6 +668,22 @@
     - 微信公众号「NeuralTalk」
         - [2023-06-16，SIMD 指令集与数据并行程序](https://mp.weixin.qq.com/s/dgTtEY5NZh-npQ6KN2WoaA)
 
+    - [知乎「白牛」](https://www.zhihu.com/people/huan-jun-81)
+        - [2023-05-04，OpenBLAS gemm从零入门](https://zhuanlan.zhihu.com/p/65436463)
+    - [知乎「庄碧晨」](https://www.zhihu.com/people/zhuang-chen-84-13)
+        - [2021-01-22，多线程 GEMM 论文 笔记](https://zhuanlan.zhihu.com/p/346254572)
+    - [知乎「OeuFcoque」](https://www.zhihu.com/people/fsybdh)
+        - [2020-04-12，高性能计算简介（一）：初步分析，BLAS，BLIS简介](https://zhuanlan.zhihu.com/p/129187064)
+    - [知乎「赵小明12138」](https://www.zhihu.com/people/zhao-qi-ming-67)
+        - [2022-10-26，并行计算-canon算法：矩阵相乘](https://zhuanlan.zhihu.com/p/577512867)
+    - [知乎「zero」](https://www.zhihu.com/people/zero-35-40)
+        - [2021-12-18，稠密矩阵乘003(gemm)-OpenBLAS和BLIS分块策略](https://zhuanlan.zhihu.com/p/446908156)
+    - [知乎「严忻恺」](https://www.zhihu.com/people/yan-xin-kai-38)
+        - [2022-03-31，斯坦福CS217(三)GEMM计算加速](https://zhuanlan.zhihu.com/p/280771849)
+    - [黎明灰烬 博客](https://zhenhuaw.me/)
+        - [2019-06-12，通用矩阵乘（GEMM）优化算法](http://zhenhuaw.me/blog/2019/gemm-optimization.html)
+
+
 
   - ### CUDA Blogs
 
@@ -833,8 +857,20 @@
 
 ## Videos
 
+  - bilibili「深圳王哥的科技频道」
+    - [2022-06-24，【张先轶】BLISlab学习优化矩阵乘。第一课](https://www.bilibili.com/video/BV1c94y117Uw)
+    - [2022-06-24，【张先轶】BLISlab学习优化矩阵乘。第二课](https://www.bilibili.com/video/BV1BY411N72y)
+    - [2022-06-24，【张先轶】BLISlab学习优化矩阵乘。第三课](https://www.bilibili.com/video/BV1b94y117BK)
+    - [2022-10-19，【张先轶】BLISlab学习矩阵乘。第四课](https://www.bilibili.com/video/BV1oe4y1v7Dm)
+    - [2022-09-08，【张先轶】OpenBLAS快速入门](https://www.bilibili.com/video/BV1Ze4y1h7GF)
+
+
   - bilibili「权双」
     - [2023-07-14，CUDA编程基础入门系列（持续更新）](https://www.bilibili.com/video/BV1sM4y1x7of)
+
+
+
+
 
 
 
