@@ -64,9 +64,12 @@
 
   - ### HPC Learning
 
+    - [LAFF-On-PfHP](https://www.cs.utexas.edu/~flame/laff/pfhp/LAFF-On-PfHP.html) : LAFF-On Programming for High Performance.
+
     - [flame/how-to-optimize-gemm](https://github.com/flame/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/flame/how-to-optimize-gemm?style=social"/> : How To Optimize Gemm wiki pages. [https://github.com/flame/how-to-optimize-gemm/wiki](https://github.com/flame/how-to-optimize-gemm/wiki)
 
     - [flame/blislab](https://github.com/flame/blislab) <img src="https://img.shields.io/github/stars/flame/blislab?style=social"/> : BLISlab: A Sandbox for Optimizing GEMM. Check the [tutorial](https://github.com/flame/blislab/blob/master/tutorial.pdf) for more details.
+
 
 
   - ### CUDA Learning
@@ -665,8 +668,18 @@
         - [2024-04-10，Row-major vs. column-major matrices: a performance analysis in Mojo and NumPy](https://www.modular.com/blog/row-major-vs-column-major-matrices-a-performance-analysis-in-mojo-and-numpy)
     - 微信公众号「RVBoards」
         - [2021-03-23，张先轶博士：OpenBLAS项目与矩阵乘法优化](https://mp.weixin.qq.com/s/20SX_FL4cEDUx9pDJpOxnA)
+    - 微信公众号「猿禹宙」
+        - [2023-11-11， 朱懿：HPC之矩阵乘法高性能实验报告](https://mp.weixin.qq.com/s/WoDacoBqAJeV4PgNGtDq_A)
     - 微信公众号「NeuralTalk」
         - [2023-06-16，SIMD 指令集与数据并行程序](https://mp.weixin.qq.com/s/dgTtEY5NZh-npQ6KN2WoaA)
+    - 微信公众号「有限元语言与编程」
+        - [2024-05-21，并行计算：超级大脑背后的魔术师](https://mp.weixin.qq.com/s/GnnJtXr6BZrnGsHJB-a-ag)
+        - [2024-06-29，BLAS简介：基于Fortran的高性能矩阵计算基础库](https://mp.weixin.qq.com/s/FXkxeezDVEY7asjl_PWX1g)
+        - [2024-07-08，LAPACK简介：基于Fortran的高性能线性代数工具箱](https://mp.weixin.qq.com/s/iAxHrRFmVtcpX8otZytHvw)
+    - 微信公众号「鸟窝聊技术」
+        - [2024-07-12，使用SIMD优化二叉搜索树](https://mp.weixin.qq.com/s/u8BcfQKmtWIB86B4GetULQ)
+    - 微信公众号「OpenCV与AI深度学习」
+        - [2024-06-21，YOLOv10在PyTorch和OpenVINO中推理对比](https://mp.weixin.qq.com/s/xZ4HlfBPXFbf8OPxmXwbrQ)
 
     - [知乎「白牛」](https://www.zhihu.com/people/huan-jun-81)
         - [2023-05-04，OpenBLAS gemm从零入门](https://zhuanlan.zhihu.com/p/65436463)
@@ -734,6 +747,14 @@
         - [2024-04-23，大语言模型量化](https://mp.weixin.qq.com/s/3RUVgfrLdxyeoWX1R2Hq-Q)
         - [2024-04-25，动手实现混合精度矩阵乘CUDA内核](https://mp.weixin.qq.com/s/JGYFOsPvUSNMQWjR1gKOOg)
         - [2024-04-26，一文了解CUDA矩阵乘编程](https://mp.weixin.qq.com/s/vG7d7-tAt-mXOgRSb-jZRA)
+    - 微信公众号「GiantPandaCV」
+        - [2024-04-20，Tensor Cores 使用介绍](https://mp.weixin.qq.com/s/Mr-yR_YW5nNKV2dSrr5U2Q)
+        - [2024-05-27，[并行训练]Context Parallelism的原理与代码浅析](https://mp.weixin.qq.com/s/vXWUUtAQNkBUpgDIJV8C0w)
+        - [2024-06-20， FP8量化解读--8bit下最优方案？（一）](https://mp.weixin.qq.com/s/WcFG7mmsEwrL0g3dSJTC5A)
+        - [2024-07-01，CUDA-MODE 课程笔记 第一课: 如何在 PyTorch 中 profile CUDA kernels](https://mp.weixin.qq.com/s/owF7AFR61SLrOosUPdZPQQ)
+        - [2024-07-04，CUDA-MODE 第一课课后实战（上）](https://mp.weixin.qq.com/s/9XeJPWUsKTaMU2OdPkL-OQ)
+        - [2024-07-06，CUDA-MODE 课程笔记 第二课: PMPP 书的第1-3章速通](https://mp.weixin.qq.com/s/y0fYn8gUqHqEoRO41ftKnA)
+        - [2024-07-13，CUDA-MODE 课程笔记 第四课: PMPP 书的第4-5章笔记](https://mp.weixin.qq.com/s/P87c8LRJ1CEOOyaQw8L-cA)
     - 微信公众号「机器学习研究组订阅」
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
@@ -763,12 +784,6 @@
         - [2022-10-16，TensorRT/CUDA超全代码资料仓库](https://mp.weixin.qq.com/s/WXZXVlAohZn2YJ490pddpQ)
     - 微信公众号「美团技术团队」
         - [2024-04-11，美团外卖基于GPU的向量检索系统实践](https://mp.weixin.qq.com/s/pPl-anyQnFNFkmBlVsrBpA)
-    - 微信公众号「GiantPandaCV」
-        - [2024-04-20，Tensor Cores 使用介绍](https://mp.weixin.qq.com/s/Mr-yR_YW5nNKV2dSrr5U2Q)
-        - [2024-05-27，[并行训练]Context Parallelism的原理与代码浅析](https://mp.weixin.qq.com/s/vXWUUtAQNkBUpgDIJV8C0w)
-        - [2024-06-20， FP8量化解读--8bit下最优方案？（一）](https://mp.weixin.qq.com/s/WcFG7mmsEwrL0g3dSJTC5A)
-        - [2024-07-01，CUDA-MODE 课程笔记 第一课: 如何在 PyTorch 中 profile CUDA kernels](https://mp.weixin.qq.com/s/owF7AFR61SLrOosUPdZPQQ)
-        - [2024-07-04，CUDA-MODE 第一课课后实战（上）](https://mp.weixin.qq.com/s/9XeJPWUsKTaMU2OdPkL-OQ)
     - 微信公众号「GitHubFun网站」
         - [2024-04-20，英伟达开源人工智能代数库：线性代数子例程的 CUDA 模板](https://mp.weixin.qq.com/s/CwTnG89-tc1HaapvbU0D6g)
     - 微信公众号「大模型生态圈」
@@ -841,14 +856,23 @@
     - 微信公众号「小吴持续学习AI」
         - [2023-06-12，为CUDA Kernel选择合适的grid_size和block_size](https://mp.weixin.qq.com/s/Je0ZCPv6RKacX__TFL1y4A)
     - 微信公众号「大模型新视界」
+        - [2024-06-20，大模型量化性能评价指标](https://mp.weixin.qq.com/s/S76alcWhBdM5gWJvT0udAQ)
         - [2024-06-24，FP8 量化基础 - 英伟达](https://mp.weixin.qq.com/s/MnOze4BGP-a7Un4K0sakbg)
+        - [2024-07-05，聊聊大模型推理中的分离式推理](https://mp.weixin.qq.com/s/4vO3j4LXcmsZ97WfabZzfA)
+        - [2024-07-11，FP8 低精度训练：Transformer Engine 简析](https://mp.weixin.qq.com/s/r836OOVNo9z_HHTX-MtO-A)
     - 微信公众号「量子位」
         - [2024-06-17，黄仁勋致毕业生：勇于进入0亿美元市场，希望你能找到自己的GPU](https://mp.weixin.qq.com/s/m7ySazb1DrsLUQHqSW37mg)
     - 微信公众号「HPC智能流体大本营」
         - [2024-03-26，GPU 上 GEMM 的性能优化指标](https://mp.weixin.qq.com/s/0sNkjkE9LJ3o6_w5uR_XgA)
     - 微信公众号「人工智能前沿讲习」
         - [2023-07-06，【他山之石】CUDA SGEMM矩阵乘法优化笔记——从入门到cublas](https://mp.weixin.qq.com/s/0iAbHZ-hN6Mj2c2j2Uw03w)
-
+    - 微信公众号「AI让生活更美好」
+        - [2024-07-06，Thrust 库：让 C++ 并行计算飞跃](https://mp.weixin.qq.com/s/GtMolxSU-VKjs0cheMOykg)
+    - 微信公众号「NE时代智能车」
+        - [2024-07-09，理想是如何将视觉语言大模型部署到Orin-X上的？](https://mp.weixin.qq.com/s/EBnfgXY_fxlQI-7eykwqZA)
+    - 微信公众号「OpenCV与AI深度学习」
+        - [2024-07-08，实战 | YOLOv8使用TensorRT加速推理教程（步骤 + 代码）](https://mp.weixin.qq.com/s/VcUifHycY9aw99d3WD1h1w)
+        - [2024-07-10，OpenCV使用CUDA加速资料汇总(pdf+视频+源码)](https://mp.weixin.qq.com/s/o-AECBLDucxVLr1Q0yxZ_g)
 
 
 
@@ -863,7 +887,8 @@
     - [2022-06-24，【张先轶】BLISlab学习优化矩阵乘。第三课](https://www.bilibili.com/video/BV1b94y117BK)
     - [2022-10-19，【张先轶】BLISlab学习矩阵乘。第四课](https://www.bilibili.com/video/BV1oe4y1v7Dm)
     - [2022-09-08，【张先轶】OpenBLAS快速入门](https://www.bilibili.com/video/BV1Ze4y1h7GF)
-
+  - bilibili「HITsz-OSA」
+    - [2022-07-07，稠密矩阵乘在单核上的优化](https://www.bilibili.com/video/BV17U4y1D7T8)
 
   - bilibili「权双」
     - [2023-07-14，CUDA编程基础入门系列（持续更新）](https://www.bilibili.com/video/BV1sM4y1x7of)
