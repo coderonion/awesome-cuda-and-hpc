@@ -175,6 +175,8 @@
 
     - [kalfazed/tensorrt_starter](https://github.com/kalfazed/tensorrt_starter) <img src="https://img.shields.io/github/stars/kalfazed/tensorrt_starter?style=social"/> : This repository give a guidline to learn CUDA and TensorRT from the beginning.
 
+    - [LitLeo/TensorRT_Tutorial](https://github.com/LitLeo/TensorRT_Tutorial) <img src="https://img.shields.io/github/stars/LitLeo/TensorRT_Tutorial?style=social"/> : TensorRT_Tutorial.
+
 
 
 
@@ -196,6 +198,8 @@
     - [SciPy](https://github.com/scipy/scipy) <img src="https://img.shields.io/github/stars/scipy/scipy?style=social"/> : SciPy library main repository. SciPy (pronounced "Sigh Pie") is an open-source software for mathematics, science, and engineering. It includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more. [scipy.org](https://scipy.org/)
 
     - [Gonum](https://github.com/gonum/gonum) <img src="https://img.shields.io/github/stars/gonum/gonum?style=social"/> : Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more. [www.gonum.org/](https://www.gonum.org/)
+
+    - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥. Matmul.🔥 is a high performance muilti-threaded implimentation of the [BLIS](https://en.wikipedia.org/wiki/BLIS_(software)) algorithm in pure Mojo 🔥.
 
 
   - ### CUDA Frameworks
@@ -887,7 +891,8 @@
         - [2024-07-24，CUDA实现matmul的并行策略](https://mp.weixin.qq.com/s/U_-NnW2yx3jnc1vCfEi1Cg)
         - [2024-07-27，flash attention的CUDA编程](https://mp.weixin.qq.com/s/RRP45uuC-KgKZ88bzTLgUQ)
 
-
+    - [知乎「是聪明貂吖」](https://www.zhihu.com/people/cmd23333)
+        - [2024-02-18，《高性能并行编程与优化》课程笔记目录](https://zhuanlan.zhihu.com/p/671684145)
 
 
 
@@ -901,7 +906,6 @@
     - [2022-09-08，【张先轶】OpenBLAS快速入门](https://www.bilibili.com/video/BV1Ze4y1h7GF)
   - bilibili「HITsz-OSA」
     - [2022-07-07，稠密矩阵乘在单核上的优化](https://www.bilibili.com/video/BV17U4y1D7T8)
-
   - bilibili「权双」
     - [2023-07-14，CUDA编程基础入门系列（持续更新）](https://www.bilibili.com/video/BV1sM4y1x7of)
 
