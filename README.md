@@ -104,13 +104,13 @@
 
     - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
 
-    - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth//CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth//CUDA-Learn-Notes?style=social"/> : 🎉CUDA/C++ 笔记 / 大模型手撕CUDA / 技术博客，更新随缘: flash_attn、sgemm、sgemv、warp reduce、block reduce、dot product、elementwise、softmax、layernorm、rmsnorm、hist etc.
+    - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 🎉CUDA/C++ 笔记 / 大模型手撕CUDA / 技术博客，更新随缘: flash_attn、sgemm、sgemv、warp reduce、block reduce、dot product、elementwise、softmax、layernorm、rmsnorm、hist etc.
 
     - [BBuf/how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda) <img src="https://img.shields.io/github/stars/BBuf/how-to-optim-algorithm-in-cuda?style=social"/> : how to optimize some algorithm in cuda.
 
     - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
 
-    - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/)
+    - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/). This repository contains the CUDA kernels for general matrix-matrix multiplication (GEMM) and the corresponding performance analysis.
 
     - [Liu-xiandong/How_to_optimize_in_GPU](https://github.com/Liu-xiandong/How_to_optimize_in_GPU) <img src="https://img.shields.io/github/stars/Liu-xiandong/How_to_optimize_in_GPU?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
 
@@ -156,11 +156,11 @@
 
     - [PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA?style=social"/> : Hands-On GPU Accelerated Computer Vision with OpenCV and CUDA, published by Packt.
 
-    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(C++语言版)】配套代码。
+    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(C++版)】配套代码。
 
-    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Python语言版)】配套代码。
+    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Python版)】配套代码。
 
-    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Rust语言版)】配套代码。
+    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Rust版)】配套代码。
 
 
 
