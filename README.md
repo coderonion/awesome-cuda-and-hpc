@@ -71,6 +71,8 @@
 
     - [flame/blislab](https://github.com/flame/blislab) <img src="https://img.shields.io/github/stars/flame/blislab?style=social"/> : BLISlab: A Sandbox for Optimizing GEMM. Check the [tutorial](https://github.com/flame/blislab/blob/master/tutorial.pdf) for more details.
 
+    - [tpoisonooo/how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/tpoisonooo/how-to-optimize-gemm?style=social"/> : row-major matmul optimization. [zhuanlan.zhihu.com/p/65436463](https://zhuanlan.zhihu.com/p/65436463).
+
     - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥
 
 
@@ -113,6 +115,8 @@
     - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/). This repository contains the CUDA kernels for general matrix-matrix multiplication (GEMM) and the corresponding performance analysis.
 
     - [Liu-xiandong/How_to_optimize_in_GPU](https://github.com/Liu-xiandong/How_to_optimize_in_GPU) <img src="https://img.shields.io/github/stars/Liu-xiandong/How_to_optimize_in_GPU?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
+
+    - [tpoisonooo/how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/tpoisonooo/how-to-optimize-gemm?style=social"/> : row-major matmul optimization. [zhuanlan.zhihu.com/p/65436463](https://zhuanlan.zhihu.com/p/65436463).
 
     - [Bruce-Lee-LY/matrix_multiply](https://github.com/Bruce-Lee-LY/matrix_multiply) <img src="https://img.shields.io/github/stars/Bruce-Lee-LY/matrix_multiply?style=social"/> : Several common methods of matrix multiplication are implemented on CPU and Nvidia GPU using C++11 and CUDA.
 
