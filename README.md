@@ -20,6 +20,7 @@
             - [Python version](#python-version)
             - [Rust Version](#rust-version)
             - [Julia Version](#julia-version)
+        - [Performance Benchmark](#performance-benchmark)
         - [Scientific Computing Framework](#scientific-computing-framework)
         - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
@@ -321,6 +322,11 @@
             - [AMDGPU.jl](https://github.com/JuliaGPU/AMDGPU.jl) <img src="https://img.shields.io/github/stars/JuliaGPU/AMDGPU.jl?style=social"/> : AMD GPU (ROCm) programming in Julia.
 
 
+    - #### Performance Benchmark
+
+        - [te42kyfo/gpu-benches](https://github.com/te42kyfo/gpu-benches) <img src="https://img.shields.io/github/stars/te42kyfo/gpu-benches?style=social"/> : collection of benchmarks to measure basic GPU capabilities.
+
+
 
     - #### Scientific Computing Framework
       ##### 科学计算框架
@@ -528,6 +534,8 @@
       ##### 多GPU框架
 
         - [NVIDIA/nccl](https://github.com/NVIDIA/nccl) <img src="https://img.shields.io/github/stars/NVIDIA/nccl?style=social"/> : Optimized primitives for collective multi-GPU communication.
+
+        - [NVIDIA/multi-gpu-programming-models](https://github.com/NVIDIA/multi-gpu-programming-models) <img src="https://img.shields.io/github/stars/NVIDIA/multi-gpu-programming-models?style=social"/> : Examples demonstrating available options to program multiple GPUs in a single node or a cluster.
 
         - [wilicc/gpu-burn](https://github.com/wilicc/gpu-burn) <img src="https://img.shields.io/github/stars/wilicc/gpu-burn?style=social"/> : Multi-GPU CUDA stress test.
 
