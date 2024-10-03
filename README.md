@@ -105,6 +105,8 @@
 
     - [QINZHAOYU/CudaSteps](https://github.com/QINZHAOYU/CudaSteps) <img src="https://img.shields.io/github/stars/QINZHAOYU/CudaSteps?style=social"/> : 基于《cuda编程-基础与实践》（樊哲勇 著）的cuda学习之路。
 
+    - [MAhaitao999/CUDA_Programming](https://github.com/MAhaitao999/CUDA_Programming) <img src="https://img.shields.io/github/stars/MAhaitao999/CUDA_Programming?style=social"/> : 《CUDA编程基础与实践》一书的代码。
+
     - [sangyc10/CUDA-code](https://github.com/sangyc10/CUDA-code) <img src="https://img.shields.io/github/stars/sangyc10/CUDA-code?style=social"/> : bilibili视频【CUDA编程基础入门系列（持续更新）】配套代码。
 
     - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
@@ -116,6 +118,8 @@
     - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
 
     - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/). This repository contains the CUDA kernels for general matrix-matrix multiplication (GEMM) and the corresponding performance analysis.
+
+    - [interestingLSY/CUDA-From-Correctness-To-Performance-Code](https://github.com/interestingLSY/CUDA-From-Correctness-To-Performance-Code) <img src="https://img.shields.io/github/stars/interestingLSY/CUDA-From-Correctness-To-Performance-Code?style=social"/> : Codes & examples for "CUDA - From Correctness to Performance". The lecture can be found at [https://wiki.lcpu.dev/zh/hpc/from-scratch/cuda](https://wiki.lcpu.dev/zh/hpc/from-scratch/cuda).
 
     - [Liu-xiandong/How_to_optimize_in_GPU](https://github.com/Liu-xiandong/How_to_optimize_in_GPU) <img src="https://img.shields.io/github/stars/Liu-xiandong/How_to_optimize_in_GPU?style=social"/> : This is a series of GPU optimization topics. Here we will introduce how to optimize the CUDA kernel in detail. I will introduce several basic kernel optimizations, including: elementwise, reduce, sgemv, sgemm, etc. The performance of these kernels is basically at or near the theoretical limit.
 
