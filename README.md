@@ -1,7 +1,7 @@
 # Awesome-CUDA-and-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public CUDA, cuBLAS, TensorRT and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-and-HPC](#awesome-cuda-and-hpc)
@@ -85,11 +85,13 @@
 
     - [NVIDIA CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html) : CUDA C++ Best Practices Guide.
 
-    - [CuPy User Guide](https://docs.cupy.dev/en/stable/user_guide/) : CuPy(NumPy & SciPy for GPU) Documentation.
-
     - [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-samples?style=social"/> : Samples for CUDA Developers which demonstrates features in CUDA Toolkit.
 
     - [NVIDIA/CUDALibrarySamples](https://github.com/NVIDIA/CUDALibrarySamples) <img src="https://img.shields.io/github/stars/NVIDIA/CUDALibrarySamples?style=social"/> : CUDA Library Samples.
+
+    - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python is the home for accessing NVIDIA’s CUDA platform from Python. CUDA Python Low-level Bindings. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/latest/)
+
+    - [CuPy](https://github.com/cupy/cupy) <img src="https://img.shields.io/github/stars/cupy/cupy?style=social"/> : CuPy : NumPy & SciPy for GPU. [cupy.dev](https://cupy.dev/). [CuPy User Guide](https://docs.cupy.dev/en/stable/user_guide/)
 
     - [NVIDIA-developer-blog/code-samples](https://github.com/NVIDIA-developer-blog/code-samples) <img src="https://img.shields.io/github/stars/NVIDIA-developer-blog/code-samples?style=social"/> : Source code examples from the [Parallel Forall Blog](http://developer.nvidia.com/parallel-forall).
 
@@ -230,6 +232,8 @@
 
 
         - ##### Python Version
+
+            - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python is the home for accessing NVIDIA’s CUDA platform from Python. CUDA Python Low-level Bindings. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/latest/)
 
             - [CuPy](https://github.com/cupy/cupy) <img src="https://img.shields.io/github/stars/cupy/cupy?style=social"/> : CuPy : NumPy & SciPy for GPU. [cupy.dev](https://cupy.dev/)
 
@@ -731,6 +735,8 @@
 
 
 
+
+
   - ### CUDA Blogs
 
     - 微信公众号「NVIDIA英伟达」
@@ -791,10 +797,12 @@
         - [2024-07-13，CUDA-MODE 课程笔记 第四课: PMPP 书的第4-5章笔记](https://mp.weixin.qq.com/s/P87c8LRJ1CEOOyaQw8L-cA)
         - [2024-07-18，CUDA-MODE课程笔记 第6课: 如何优化PyTorch中的优化器](https://mp.weixin.qq.com/s/qxPYdGZ71DKVLnnYxmvUVA)
         - [2024-07-23，CUTLASS 2.x & CUTLASS 3.x Intro 学习笔记](https://mp.weixin.qq.com/s/r9b1dGyOr82ooMl4LD1n_Q)
+        - [2024-09-12，CUDA-MODE课程笔记 第12课，Flash Attention](hhttps://mp.weixin.qq.com/s/IBeBHO5WlS5BfyL0nZaDHg)
     - 微信公众号「机器学习研究组订阅」
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
         - [2024-02-28，熬了几个通宵，我写了份CUDA新手入门代码](https://mp.weixin.qq.com/s/UXIzQ9SYhtN4q8VfzNXDqA)
+        - [2024-03-24，CUDA之通用矩阵乘法：从入门到熟练！](https://mp.weixin.qq.com/s/n9c-SZl5I_oj4N2l3I5kRg)
         - [2024-05-13，Shared memory！CUDA数据拷贝速度拉满~](https://mp.weixin.qq.com/s/P5CdO3QCSQKuj3nWjS_2yA)
     - 微信公众号「Meet DSA」
         - [2024-03-29，大语言模型硬件加速器综述](https://mp.weixin.qq.com/s/rtq8e_zVUWLc-vkT4V0qzQ)
@@ -851,6 +859,7 @@
         - [2024-04-30，加速矩阵计算：英伟达TensorCore架构演进与原理最全解析](https://mp.weixin.qq.com/s/dwT1Fl6F4V1MvWGgt1ac0Q)
         - [2024-05-15，揭秘 Tensor Core 底层：如何让AI计算速度飞跃](https://mp.weixin.qq.com/s/UL7CLWp3cmdUgGILr4iVzA)
         - [2024-05-27，浅析GPU分布式通信技术-PCle、NVLink、NVSwitch](https://mp.weixin.qq.com/s/ZllBWNqBwiY-Cb0UFIkwVg)
+        - [2024-09-09，使用Nsight Profiling工具对大模型进行性能调优](https://mp.weixin.qq.com/s/1t22WJCtqaWTP6UvFRnFeg)
     - 微信公众号「潮观世界」
         - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
     - 微信公众号「DeepDriving」
@@ -912,9 +921,15 @@
     - 微信公众号「InfiniTensor」
         - [2024-07-24，CUDA实现matmul的并行策略](https://mp.weixin.qq.com/s/U_-NnW2yx3jnc1vCfEi1Cg)
         - [2024-07-27，flash attention的CUDA编程](https://mp.weixin.qq.com/s/RRP45uuC-KgKZ88bzTLgUQ)
+    - 微信公众号「CV技术指南」
+        - [2024-09-08，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/TABVE-pvXqNmsnkdkv_9MA)
+    - 微信公众号「GeekSavvy」
+        - [2024-03-19，史上最强芯片推出！英伟达发布新一代BlackWell GPU](https://mp.weixin.qq.com/s/Ld2P68IBzFTDYrx3rY8rNw)
 
     - [知乎「是聪明貂吖」](https://www.zhihu.com/people/cmd23333)
         - [2024-02-18，《高性能并行编程与优化》课程笔记目录](https://zhuanlan.zhihu.com/p/671684145)
+
+
 
 
 
