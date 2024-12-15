@@ -1,19 +1,17 @@
-# Awesome-CUDA-and-HPC
+# Awesome-CUDA-Triton-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org) and High Performance Computing (HPC) projects.
 
 ## Contents
-- [Awesome-CUDA-and-HPC](#awesome-cuda-and-hpc)
+- [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
   - [Contents](#contents)
   - [Awesome List](#awesome-list)
-    - [Awesome CUDA](#awesome-cuda)
   - [Learning Resources](#learning-resources)
     - [HPC Learning](#hpc-learning)
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
   - [Frameworks](#frameworks)
-    - [HPC Frameworks](#hpc-frameworks)
     - [CUDA Frameworks](#cuda-frameworks)
         - [GPU Interface](#gpu-interface)
             - [CPP Version](#cpp-version)
@@ -24,17 +22,19 @@
         - [Scientific Computing Framework](#scientific-computing-framework)
         - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
+            - [LLM Inference and Serving Engine](#llm-inference-and-serving-engine)
             - [C Implementation](#c-implementation)
             - [CPP Implementation](#cpp-implementation)
             - [Mojo Implementation](#mojo-implementation)
             - [Rust Implementation](#rust-implementation)
             - [zig Implementation](#zig-implementation)
             - [Go Implementation](#go-implementation)
-            - [LLM Deployment Engine](#llm-deployment-engine)
-            - [LLM Inference Benchmark](#llm-inference-benchmark)
         - [Multi-GPU Framework](#multi-gpu-framework)
         - [Robotics Framework](#robotics-framework)
         - [ZKP and Web3 Framework](#zkp-and-web3-framework)
+    - [Triton Frameworks](#triton-frameworks)
+        - [Triton Machine Learning Framework](#triton-machine-learning-framework)
+    - [HPC Frameworks](#hpc-frameworks)
   - [Applications](#applications)
     - [CUDA Applications](#cuda-applications)
         - [Image Preprocess](#image-preprocess)
@@ -49,16 +49,16 @@
 
 ## Awesome List
 
-  - ### Awesome CUDA
+  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public CUDA, cuBLAS, TensorRT, Triton and High Performance Computing (HPC) projects.
 
+  - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
-    - [codingonion/awesome-cuda-and-hpc](https://github.com/codingonion/awesome-cuda-and-hpc) <img src="https://img.shields.io/github/stars/codingonion/awesome-cuda-and-hpc?style=social"/> : A collection of some awesome public CUDA, cuBLAS, TensorRT and High Performance Computing (HPC) projects.
+  - [jslee02/awesome-gpgpu](https://github.com/jslee02/awesome-gpgpu) <img src="https://img.shields.io/github/stars/jslee02/awesome-gpgpu?style=social"/> : 😎 A curated list of awesome GPGPU (CUDA/OpenCL/Vulkan) resources.
 
-    - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
+  - [mikeroyal/CUDA-Guide](https://github.com/mikeroyal/CUDA-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/CUDA-Guide?style=social"/> : A guide covering CUDA including the applications and tools that will make you a better and more efficient CUDA developer.
 
-    - [jslee02/awesome-gpgpu](https://github.com/jslee02/awesome-gpgpu) <img src="https://img.shields.io/github/stars/jslee02/awesome-gpgpu?style=social"/> : 😎 A curated list of awesome GPGPU (CUDA/OpenCL/Vulkan) resources.
+  - [rkinas/triton-resources](https://github.com/rkinas/triton-resources) <img src="https://img.shields.io/github/stars/rkinas/triton-resources?style=social"/> : A curated list of resources for learning and exploring Triton, OpenAI's programming language for writing efficient GPU code.
 
-    - [mikeroyal/CUDA-Guide](https://github.com/mikeroyal/CUDA-Guide) <img src="https://img.shields.io/github/stars/mikeroyal/CUDA-Guide?style=social"/> : A guide covering CUDA including the applications and tools that will make you a better and more efficient CUDA developer.
 
 
 
@@ -169,11 +169,9 @@
 
     - [PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA?style=social"/> : Hands-On GPU Accelerated Computer Vision with OpenCV and CUDA, published by Packt.
 
-    - [codingonion/cuda-beginner-course-cpp-version](https://github.com/codingonion/cuda-beginner-course-cpp-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-cpp-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(C++版)】配套代码。
+    - [BobMcDear/neural-network-cuda](https://github.com/BobMcDear/neural-network-cuda) <img src="https://img.shields.io/github/stars/BobMcDear/neural-network-cuda?style=social"/> : Neural network from scratch in CUDA/C++.
 
-    - [codingonion/cuda-beginner-course-python-version](https://github.com/codingonion/cuda-beginner-course-python-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-python-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Python版)】配套代码。
 
-    - [codingonion/cuda-beginner-course-rust-version](https://github.com/codingonion/cuda-beginner-course-rust-version) <img src="https://img.shields.io/github/stars/codingonion/cuda-beginner-course-rust-version?style=social"/> : bilibili视频【CUDA 12.x 并行编程入门(Rust版)】配套代码。
 
 
 
@@ -200,23 +198,7 @@
 
 ## Frameworks
 
-  - ### HPC Frameworks
 
-    - [BLAS](https://www.netlib.org/blas/) : BLAS (Basic Linear Algebra Subprograms). The BLAS (Basic Linear Algebra Subprograms) are routines that provide standard building blocks for performing basic vector and matrix operations. The Level 1 BLAS perform scalar, vector and vector-vector operations, the Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform matrix-matrix operations.
-
-    - [LAPACK](https://github.com/Reference-LAPACK/lapack) <img src="https://img.shields.io/github/stars/Reference-LAPACK/lapack?style=social"/> : LAPACK development repository. [LAPACK](https://www.netlib.org/lapack/) — Linear Algebra PACKage. LAPACK is written in Fortran 90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. The associated matrix factorizations (LU, Cholesky, QR, SVD, Schur, generalized Schur) are also provided, as are related computations such as reordering of the Schur factorizations and estimating condition numbers. Dense and banded matrices are handled, but not general sparse matrices. In all areas, similar functionality is provided for real and complex matrices, in both single and double precision.
-
-    - [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS) <img src="https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=social"/> : OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. [www.openblas.net](http://www.openblas.net/)
-
-    - [BLIS](https://github.com/flame/blis) <img src="https://img.shields.io/github/stars/flame/blis?style=social"/> : BLAS-like Library Instantiation Software Framework.
-
-    - [NumPy](https://github.com/numpy/numpy) <img src="https://img.shields.io/github/stars/numpy/numpy?style=social"/> : The fundamental package for scientific computing with Python. [numpy.org](https://numpy.org/)
-
-    - [SciPy](https://github.com/scipy/scipy) <img src="https://img.shields.io/github/stars/scipy/scipy?style=social"/> : SciPy library main repository. SciPy (pronounced "Sigh Pie") is an open-source software for mathematics, science, and engineering. It includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more. [scipy.org](https://scipy.org/)
-
-    - [Gonum](https://github.com/gonum/gonum) <img src="https://img.shields.io/github/stars/gonum/gonum?style=social"/> : Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more. [www.gonum.org/](https://www.gonum.org/)
-
-    - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥. Matmul.🔥 is a high performance muilti-threaded implimentation of the [BLIS](https://en.wikipedia.org/wiki/BLIS_(software)) algorithm in pure Mojo 🔥.
 
 
   - ### CUDA Frameworks
@@ -371,6 +353,21 @@
     - #### AI Inference Framework
       ##### AI推理框架
 
+        - ##### LLM Inference and Serving Engine
+
+            - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
+
+            - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
+
+            - [MLC LLM](https://github.com/mlc-ai/mlc-llm) <img src="https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social"/> : Enable everyone to develop, optimize and deploy AI models natively on everyone's devices. [mlc.ai/mlc-llm](https://mlc.ai/mlc-llm/)
+
+            - [Lamini](https://github.com/lamini-ai/lamini) <img src="https://img.shields.io/github/stars/lamini-ai/lamini?style=social"/> : Lamini: The LLM engine for rapidly customizing models 🦙.
+
+            - [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) <img src="https://img.shields.io/github/stars/datawhalechina/self-llm?style=social"/> :  《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程。
+
+            - [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) <img src="https://img.shields.io/github/stars/ninehills/llm-inference-benchmark?style=social"/> : LLM Inference benchmark.
+
+
         - ##### C Implementation
 
             - [llm.c](https://github.com/karpathy/llm.c) <img src="https://img.shields.io/github/stars/karpathy/llm.c?style=social"/> : LLM training in simple, pure C/CUDA. There is no need for 245MB of PyTorch or 107MB of cPython. For example, training GPT-2 (CPU, fp32) is ~1,000 lines of clean code in a single file. It compiles and runs instantly, and exactly matches the PyTorch reference implementation.
@@ -523,20 +520,6 @@
             - [go-skynet/LocalAI](https://github.com/go-skynet/LocalAI) <img src="https://img.shields.io/github/stars/go-skynet/LocalAI?style=social"/> : 🤖 Self-hosted, community-driven, local OpenAI-compatible API. Drop-in replacement for OpenAI running LLMs on consumer-grade hardware. Free Open Source OpenAI alternative. No GPU required. LocalAI is an API to run ggml compatible models: llama, gpt4all, rwkv, whisper, vicuna, koala, gpt4all-j, cerebras, falcon, dolly, starcoder, and many other. [localai.io](https://localai.io/)
 
 
-        - ##### LLM Deployment Engine
-
-            - [vllm-project/vllm](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [vllm.readthedocs.io](https://vllm.readthedocs.io/en/latest/)
-
-            - [MLC LLM](https://github.com/mlc-ai/mlc-llm) <img src="https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social"/> : Enable everyone to develop, optimize and deploy AI models natively on everyone's devices. [mlc.ai/mlc-llm](https://mlc.ai/mlc-llm/)
-
-            - [Lamini](https://github.com/lamini-ai/lamini) <img src="https://img.shields.io/github/stars/lamini-ai/lamini?style=social"/> : Lamini: The LLM engine for rapidly customizing models 🦙.
-
-            - [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) <img src="https://img.shields.io/github/stars/datawhalechina/self-llm?style=social"/> :  《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程。
-
-        - ##### LLM Inference Benchmark
-
-            - [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) <img src="https://img.shields.io/github/stars/ninehills/llm-inference-benchmark?style=social"/> : LLM Inference benchmark.
-
 
     - #### Multi-GPU Framework
       ##### 多GPU框架
@@ -571,10 +554,39 @@
 
 
 
+  - ### Triton Frameworks
+
+    - #### Triton Machine Learning Framework
+
+        - [Liger-Kernel](https://github.com/linkedin/Liger-Kernel) <img src="https://img.shields.io/github/stars/linkedin/Liger-Kernel?style=social"/> : Efficient Triton Kernels for LLM Training. [arxiv.org/pdf/2410.10989](https://arxiv.org/pdf/2410.10989)
+
+        - [BobMcDear/attorch](https://github.com/BobMcDear/attorch) <img src="https://img.shields.io/github/stars/BobMcDear/attorch?style=social"/> : A subset of PyTorch's neural network modules, written in Python using OpenAI's Triton.
+
+
+    - #### Triton Inference Framework
+
+        - [harleyszhang/lite_llama](https://github.com/harleyszhang/lite_llama) <img src="https://img.shields.io/github/stars/harleyszhang/lite_llama?style=social"/> : The llama model inference lite framework by triton.
 
 
 
 
+  - ### HPC Frameworks
+
+    - [BLAS](https://www.netlib.org/blas/) : BLAS (Basic Linear Algebra Subprograms). The BLAS (Basic Linear Algebra Subprograms) are routines that provide standard building blocks for performing basic vector and matrix operations. The Level 1 BLAS perform scalar, vector and vector-vector operations, the Level 2 BLAS perform matrix-vector operations, and the Level 3 BLAS perform matrix-matrix operations.
+
+    - [LAPACK](https://github.com/Reference-LAPACK/lapack) <img src="https://img.shields.io/github/stars/Reference-LAPACK/lapack?style=social"/> : LAPACK development repository. [LAPACK](https://www.netlib.org/lapack/) — Linear Algebra PACKage. LAPACK is written in Fortran 90 and provides routines for solving systems of simultaneous linear equations, least-squares solutions of linear systems of equations, eigenvalue problems, and singular value problems. The associated matrix factorizations (LU, Cholesky, QR, SVD, Schur, generalized Schur) are also provided, as are related computations such as reordering of the Schur factorizations and estimating condition numbers. Dense and banded matrices are handled, but not general sparse matrices. In all areas, similar functionality is provided for real and complex matrices, in both single and double precision.
+
+    - [OpenBLAS](https://github.com/OpenMathLib/OpenBLAS) <img src="https://img.shields.io/github/stars/OpenMathLib/OpenBLAS?style=social"/> : OpenBLAS is an optimized BLAS library based on GotoBLAS2 1.13 BSD version. [www.openblas.net](http://www.openblas.net/)
+
+    - [BLIS](https://github.com/flame/blis) <img src="https://img.shields.io/github/stars/flame/blis?style=social"/> : BLAS-like Library Instantiation Software Framework.
+
+    - [NumPy](https://github.com/numpy/numpy) <img src="https://img.shields.io/github/stars/numpy/numpy?style=social"/> : The fundamental package for scientific computing with Python. [numpy.org](https://numpy.org/)
+
+    - [SciPy](https://github.com/scipy/scipy) <img src="https://img.shields.io/github/stars/scipy/scipy?style=social"/> : SciPy library main repository. SciPy (pronounced "Sigh Pie") is an open-source software for mathematics, science, and engineering. It includes modules for statistics, optimization, integration, linear algebra, Fourier transforms, signal and image processing, ODE solvers, and more. [scipy.org](https://scipy.org/)
+
+    - [Gonum](https://github.com/gonum/gonum) <img src="https://img.shields.io/github/stars/gonum/gonum?style=social"/> : Gonum is a set of numeric libraries for the Go programming language. It contains libraries for matrices, statistics, optimization, and more. [www.gonum.org/](https://www.gonum.org/)
+
+    - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥. Matmul.🔥 is a high performance muilti-threaded implimentation of the [BLIS](https://en.wikipedia.org/wiki/BLIS_(software)) algorithm in pure Mojo 🔥.
 
 
 
@@ -750,11 +762,14 @@
         - [2024-06-20，NVIDIA Isaac Sim 4.0 和 NVIDIA Isaac Lab 为机器人工作流和仿真提供强大助力](https://mp.weixin.qq.com/s/BYqLDexhHnPMVsQMPLWpOA)
         - [2024-06-21，消除仿真与现实之间的差距：使用 NVIDIA Isaac Lab 训练 Spot 四足机器人运动](https://mp.weixin.qq.com/s/Nb4oMxijBofiidSAHkafag)
         - [2024-07-01，NVIDIA 端到端解决方案助力理想汽车打造智能驾驶体验与个性化车内空间](https://mp.weixin.qq.com/s/gmkYFj5BcJZHO4GJ_b8pyQ)
+    - 微信公众号「智源FlagOpen」
+        - [2024-09-18，Triton大会@硅谷：芯片、AI大厂齐站台](https://mp.weixin.qq.com/s/euX2nxQ4lhG6yaLYMugyrw)
     - 微信公众号「AI不止算法」
         - [2024-03-20，C++模板推导再炫技：统一AI各个device各个kernel的调用和分发](https://mp.weixin.qq.com/s/r1XFocdVrfuArDWzpBYdAg)
         - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
         - [2024-05-10，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(上篇)](https://mp.weixin.qq.com/s/YASkRa12Ecr6fLtupP1WHg)
         - [2024-05-16，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(下篇)](https://mp.weixin.qq.com/s/Jcu_HkAMiMXYagBjNhSCZQ)
+        - [2024-10-09，深入解读tensorRT-LLM的关键技术 (未完待续)](https://mp.weixin.qq.com/s/2l5Ko2Q-iNOL3PpwpUdArw)
     - 微信公众号「澎峰科技PerfXLab」
         - [2022-10-18，深入浅出GPU优化系列：reduce优化](https://mp.weixin.qq.com/s/tNDRd18Ol56U-spoinzttg)
         - [2022-10-31，深入浅出GPU优化系列：spmv优化](https://mp.weixin.qq.com/s/JIqUbPFtYc3fs_cvKi1r3A)
@@ -781,6 +796,7 @@
         - [2024-05-14，快速提升性能，如何更好地使用GPU（下）](https://mp.weixin.qq.com/s/NPcCHlLjBZeUiAhQOHX5qA)
         - [2024-05-22，大模型精度（FP16，FP32，BF16）详解与实践](https://mp.weixin.qq.com/s/95CUl1bGN-fSvmAbH0O-DA)
         - [2024-07-24，CUDA性能简易优化（一）背景知识](https://mp.weixin.qq.com/s/mFMlBh3zPZaCRWQH-neeDA)
+        - [2024-08-13，TensorRT-LLM初探（三）最佳部署实践](https://mp.weixin.qq.com/s/BiSvYW0-Nb6qf-bTXTRUwg)
     - 微信公众号「DeepPrompting」
         - [2024-01-09，LLM推理库TensorRT-LLM深入分析](https://mp.weixin.qq.com/s/hI6maWtVGHnTi0uGPj6tmA)
         - [2024-04-10，一文上手 Tensor Core指令级编程](https://mp.weixin.qq.com/s/Gi8ExdfErUkfWu3oRyKvBw)
@@ -847,6 +863,7 @@
         - [2024-01-23，【CUDA编程】基于 CUDA 的 Kmeans 算法的进阶实现（一）](hhttps://mp.weixin.qq.com/s/5Kr8ltlzy1nL7aeGrETYvA)
         - [2024-01-24，【CUDA编程】基于 CUDA 的 Kmeans 算法的进阶实现（二）](https://mp.weixin.qq.com/s/xPN5cupqt4B-JrX6KUNJrw)
         - [2024-04-08，【CUDA编程】CUDA 统一内存](https://mp.weixin.qq.com/s/DynVo_Mu7pUQxRLHH3ii9Q)
+        - [2024-08-06，【CUDA编程】cuBLAS 库中矩阵乘法参数设置问题](https://mp.weixin.qq.com/s/MvTaIBfVW3gcwQtV2VjMTw)
     - 微信公众号「江大白」
         - [2023-09-06，GPU底层优化，如何让Transformer在GPU上跑得更快？](https://mp.weixin.qq.com/s/Xdbkld6ZrJ7Q93PEOedBMA)
         - [2024-04-12，深入浅出，PyTorch模型int8量化原理拆解](https://mp.weixin.qq.com/s/j2QS3LdudrrlyZYQkVrl5Q)
@@ -868,6 +885,7 @@
         - [2023-10-30，利用NVIDIA Jetson Orin的强大能力执行本地LLM模型](https://mp.weixin.qq.com/s/6J7fEnumqpzSGrG3plcInw)
         - [2024-05-07，基于NVIDIA Jetson AGX Orin和Audio2Face做一个AI聊天数字人](https://mp.weixin.qq.com/s/7z0uU58IxwoXcI4bZ3z68g)
         - [2024-05-14，CUDA与OpenCL：并行计算革命的冲突与未来](https://mp.weixin.qq.com/s/h0nBvuV8nnfsbX1mjXAXVw)
+        - [2024-10-08，NVIDIA Jetson平台助力Instacart，实现超市智能购物无缝体验](https://mp.weixin.qq.com/s/Q9x83ts0boNoQHZhSIpgUw)
     - 微信公众号「人工智能大讲堂」
         - [2024-05-11，我找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)
     - 微信公众号「未来科技潮」
@@ -919,15 +937,39 @@
         - [2024-07-08，实战 | YOLOv8使用TensorRT加速推理教程（步骤 + 代码）](https://mp.weixin.qq.com/s/VcUifHycY9aw99d3WD1h1w)
         - [2024-07-10，OpenCV使用CUDA加速资料汇总(pdf+视频+源码)](https://mp.weixin.qq.com/s/o-AECBLDucxVLr1Q0yxZ_g)
     - 微信公众号「InfiniTensor」
+        - [2024-07-19，softmax算子开发介绍](https://mp.weixin.qq.com/s/KT5rzTj3jNj_aw5hXm-kTw)
         - [2024-07-24，CUDA实现matmul的并行策略](https://mp.weixin.qq.com/s/U_-NnW2yx3jnc1vCfEi1Cg)
         - [2024-07-27，flash attention的CUDA编程](https://mp.weixin.qq.com/s/RRP45uuC-KgKZ88bzTLgUQ)
+        - [2024-07-30，CUDA实现规约的并行策略](https://mp.weixin.qq.com/s/OslgzL-qXV9KNrzgb3Fsvg)
+        - [2024-08-22，OpenAI Triton 简介（一）](https://mp.weixin.qq.com/s/WWPoIcqUDSYQsUI9HbN5-g)
+        - [2024-10-24，OpenAI Triton 简介（二）](https://mp.weixin.qq.com/s/XVzfsVFWDsteOIXAkqTYIw)
     - 微信公众号「CV技术指南」
         - [2024-09-08，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/TABVE-pvXqNmsnkdkv_9MA)
     - 微信公众号「GeekSavvy」
         - [2024-03-19，史上最强芯片推出！英伟达发布新一代BlackWell GPU](https://mp.weixin.qq.com/s/Ld2P68IBzFTDYrx3rY8rNw)
+    - 微信公众号「阿木实验室」
+        - [2024-07-31，搭载英伟达Jetson Orin的Allspark 2全新亮相，算力高达100TOPS！](https://mp.weixin.qq.com/s/hjU3eH1LAvxVsOHWZXFAyQ)
+    - 微信公众号「吃果冻不吐果冻皮」
+        - [2023-05-22，模型推理服务化框架Triton保姆式教程（一）：快速入门 ](https://mp.weixin.qq.com/s/YES9OO9NX6-HnzR-pvfFyQ)
+        - [2023-06-02，模型推理服务化框架Triton保姆式教程（二）：架构解析](https://mp.weixin.qq.com/s/BVKLsQ9GBN_VqStdjielrA)
+        - [2023-06-03，模型推理服务化框架Triton保姆式教程（三）：开发实践](https://mp.weixin.qq.com/s/2jAw7tf4Pvd1o1AmukTiDw)
+        - [2024-08-09，如何把 PyTorch 的 GPU 利用率提升到 100% ?](https://mp.weixin.qq.com/s/9HSZppiFjypwu-TttbxqMQ)
+    - 微信公众号「AI大模型实验室」
+        - [2024-03-19，Nvidia推出Blackwell B200 GPU，是目前最强的人工智能芯片](https://mp.weixin.qq.com/s/SPgz7q_Ycr2lNxeH0WoNEQ)
+    - 微信公众号「科技最前线」
+        - [2024-03-19，能超越英伟达的只有英伟达](https://mp.weixin.qq.com/s/ORMH0JKdeS-i_DAjdcNvXg)
+    - 微信公众号「AI范儿」
+        - [2024-03-20，NVIDIA 与 Blackwell 一起改写摩尔定律](https://mp.weixin.qq.com/s/3ffnbFdnXV7lQylzo_3o9w)
+    - 微信公众号「DataFunTalk」
+        - [2024-03-15，NVIDIA大语言模型落地的全流程解析](https://mp.weixin.qq.com/s/mhGcW8FqLigBeePlRZGBDg)
+
+
 
     - [知乎「是聪明貂吖」](https://www.zhihu.com/people/cmd23333)
         - [2024-02-18，《高性能并行编程与优化》课程笔记目录](https://zhuanlan.zhihu.com/p/671684145)
+
+
+
 
 
 
