@@ -1,11 +1,11 @@
 # Awesome-CUDA-Triton-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
-  - [Contents](#contents)
+  - [Official Version](#official-version)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
     - [CUDA Learning](#cuda-learning)
@@ -48,11 +48,31 @@
   - [Videos](#videos)
   - [Interview](#interview)
 
+## Official Version
+
+  - [CUDA](https://developer.nvidia.com/cuda-zone) : CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).
+
+  - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python is the home for accessing NVIDIA’s CUDA platform from Python. CUDA Python Low-level Bindings. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/latest/)
+
+  - [cuBLAS](https://developer.nvidia.com/cublas) : Basic Linear Algebra on NVIDIA GPUs. NVIDIA cuBLAS is a GPU-accelerated library for accelerating AI and HPC applications. It includes several API extensions for providing drop-in industry standard BLAS APIs and GEMM APIs with support for fusions that are highly optimized for NVIDIA GPUs. The cuBLAS library also contains extensions for batched operations, execution across multiple GPUs, and mixed- and low-precision execution with additional tuning for the best performance.
+
+  - [cuDNN](https://developer.nvidia.com/cudnn) : The NVIDIA CUDA Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for deep neural networks. cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, attention, matmul, pooling, and normalization.
+
+  - [CUTLASS](https://github.com/NVIDIA/cutlass) <img src="https://img.shields.io/github/stars/NVIDIA/cutlass?style=social"/> : CUDA Templates for Linear Algebra Subroutines. CUTLASS is a collection of CUDA C++ template abstractions for implementing high-performance matrix-matrix multiplication (GEMM) and related computations at all levels and scales within CUDA. It incorporates strategies for hierarchical decomposition and data movement similar to those used to implement [cuBLAS](https://developer.nvidia.com/cublas) and [cuDNN](https://developer.nvidia.com/cudnn).
+
+  - [TensorRT](https://github.com/NVIDIA/TensorRT) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social"/> : NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT. [developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
+
+  - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
+
+  - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Development repository for the Triton language and compiler. [triton-lang.org/](https://triton-lang.org/)
+
+  - [MLIR](https://mlir.llvm.org/) : Multi-Level Intermediate Representation Compiler Framework. The MLIR project is a novel approach to building reusable and extensible compiler infrastructure. MLIR aims to address software fragmentation, improve compilation for heterogeneous hardware, significantly reduce the cost of building domain specific compilers, and aid in connecting existing compilers together.
+
 
 
 ## Awesome List
 
-  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org) and High Performance Computing (HPC) projects.
+  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
@@ -66,8 +86,6 @@
 
 
 ## Learning Resources
-
-
 
 
   - ### CUDA Learning
