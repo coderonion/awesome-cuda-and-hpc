@@ -8,9 +8,10 @@
   - [Contents](#contents)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
-    - [HPC Learning](#hpc-learning)
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
+    - [Triton Learning](#triton-learning)
+    - [HPC Learning](#hpc-learning)
   - [Frameworks](#frameworks)
     - [CUDA Frameworks](#cuda-frameworks)
         - [GPU Interface](#gpu-interface)
@@ -34,22 +35,24 @@
         - [ZKP and Web3 Framework](#zkp-and-web3-framework)
     - [Triton Frameworks](#triton-frameworks)
         - [Triton Machine Learning Framework](#triton-machine-learning-framework)
+        - [Triton LLM Operator Library](#triton-llm-operator-library)
     - [HPC Frameworks](#hpc-frameworks)
   - [Applications](#applications)
     - [CUDA Applications](#cuda-applications)
         - [Image Preprocess](#image-preprocess)
         - [Object Detection](#object-detection)
   - [Blogs](#blogs)
-    - [HPC Blogs](#hpc-blogs)
     - [CUDA Blogs](#cuda-blogs)
+    - [Triton Blogs](#triton-blogs)
+    - [HPC Blogs](#hpc-blogs)
   - [Videos](#videos)
-  - [Jobs and Interview](#jobs-and-interview)
+  - [Interview](#interview)
 
 
 
 ## Awesome List
 
-  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public CUDA, cuBLAS, TensorRT, Triton and High Performance Computing (HPC) projects.
+  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
@@ -64,17 +67,7 @@
 
 ## Learning Resources
 
-  - ### HPC Learning
 
-    - [LAFF-On-PfHP](https://www.cs.utexas.edu/~flame/laff/pfhp/LAFF-On-PfHP.html) : LAFF-On Programming for High Performance.
-
-    - [flame/how-to-optimize-gemm](https://github.com/flame/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/flame/how-to-optimize-gemm?style=social"/> : How To Optimize Gemm wiki pages. [https://github.com/flame/how-to-optimize-gemm/wiki](https://github.com/flame/how-to-optimize-gemm/wiki)
-
-    - [flame/blislab](https://github.com/flame/blislab) <img src="https://img.shields.io/github/stars/flame/blislab?style=social"/> : BLISlab: A Sandbox for Optimizing GEMM. Check the [tutorial](https://github.com/flame/blislab/blob/master/tutorial.pdf) for more details.
-
-    - [tpoisonooo/how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/tpoisonooo/how-to-optimize-gemm?style=social"/> : row-major matmul optimization. [zhuanlan.zhihu.com/p/65436463](https://zhuanlan.zhihu.com/p/65436463).
-
-    - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥
 
 
   - ### CUDA Learning
@@ -196,10 +189,33 @@
 
 
 
+
+  - ### Triton Learning
+
+    - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Development repository for the Triton language and compiler. [triton-lang.org/](https://triton-lang.org/)
+
+    - [Triton Docs](https://triton-lang.org/main/index.html) : Triton Documentation.
+
+    - [hyperai/triton-cn](https://github.com/hyperai/triton-cn) <img src="https://img.shields.io/github/stars/hyperai/triton-cn?style=social"/> : Triton Documentation in Chinese Simplified / Triton 中文文档. [triton.hyper.ai](https://triton.hyper.ai/)
+
+
+  - ### HPC Learning
+
+    - [LAFF-On-PfHP](https://www.cs.utexas.edu/~flame/laff/pfhp/LAFF-On-PfHP.html) : LAFF-On Programming for High Performance.
+
+    - [flame/how-to-optimize-gemm](https://github.com/flame/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/flame/how-to-optimize-gemm?style=social"/> : How To Optimize Gemm wiki pages. [https://github.com/flame/how-to-optimize-gemm/wiki](https://github.com/flame/how-to-optimize-gemm/wiki)
+
+    - [flame/blislab](https://github.com/flame/blislab) <img src="https://img.shields.io/github/stars/flame/blislab?style=social"/> : BLISlab: A Sandbox for Optimizing GEMM. Check the [tutorial](https://github.com/flame/blislab/blob/master/tutorial.pdf) for more details.
+
+    - [tpoisonooo/how-to-optimize-gemm](https://github.com/tpoisonooo/how-to-optimize-gemm) <img src="https://img.shields.io/github/stars/tpoisonooo/how-to-optimize-gemm?style=social"/> : row-major matmul optimization. [zhuanlan.zhihu.com/p/65436463](https://zhuanlan.zhihu.com/p/65436463).
+
+    - [YichengDWu/matmul.mojo](https://github.com/YichengDWu/matmul.mojo) <img src="https://img.shields.io/github/stars/YichengDWu/matmul.mojo?style=social"/> : High Performance Matrix Multiplication in Pure Mojo 🔥
+
+
+
+
+
 ## Frameworks
-
-
-
 
   - ### CUDA Frameworks
 
@@ -314,6 +330,8 @@
 
     - #### Performance Benchmark
 
+        - [FlagPerf](https://github.com/FlagOpen/FlagPerf) <img src="https://img.shields.io/github/stars/FlagOpen/FlagPerf?style=social"/> : FlagPerf is an open-source software platform for benchmarking AI chips. FlagPerf是智源研究院联合AI硬件厂商共建的一体化AI硬件评测引擎，旨在建立以产业实践为导向的指标体系，评测AI硬件在软件栈组合（模型+框架+编译器）下的实际能力。
+
         - [te42kyfo/gpu-benches](https://github.com/te42kyfo/gpu-benches) <img src="https://img.shields.io/github/stars/te42kyfo/gpu-benches?style=social"/> : collection of benchmarks to measure basic GPU capabilities.
 
 
@@ -324,6 +342,8 @@
         - [cuBLAS](https://developer.nvidia.com/cublas) : Basic Linear Algebra on NVIDIA GPUs. NVIDIA cuBLAS is a GPU-accelerated library for accelerating AI and HPC applications. It includes several API extensions for providing drop-in industry standard BLAS APIs and GEMM APIs with support for fusions that are highly optimized for NVIDIA GPUs. The cuBLAS library also contains extensions for batched operations, execution across multiple GPUs, and mixed- and low-precision execution with additional tuning for the best performance.
 
         - [CUTLASS](https://github.com/NVIDIA/cutlass) <img src="https://img.shields.io/github/stars/NVIDIA/cutlass?style=social"/> : CUDA Templates for Linear Algebra Subroutines.
+
+        - [MUTLASS](https://github.com/MooreThreads/mutlass) <img src="https://img.shields.io/github/stars/MooreThreads/mutlass?style=social"/> : MUSA Templates for Linear Algebra Subroutines.
 
         - [MatX](https://github.com/NVIDIA/MatX) <img src="https://img.shields.io/github/stars/NVIDIA/MatX?style=social"/> : MatX - GPU-Accelerated Numerical Computing in Modern C++. An efficient C++17 GPU numerical computing library with Python-like syntax. [nvidia.github.io/MatX](https://nvidia.github.io/MatX)
 
@@ -340,6 +360,8 @@
         - [cuDNN](https://developer.nvidia.com/cudnn) : The NVIDIA CUDA® Deep Neural Network library (cuDNN) is a GPU-accelerated library of primitives for [deep neural networks](https://developer.nvidia.com/deep-learning). cuDNN provides highly tuned implementations for standard routines such as forward and backward convolution, attention, matmul, pooling, and normalization.
 
         - [PyTorch](https://github.com/pytorch/pytorch) <img src="https://img.shields.io/github/stars/pytorch/pytorch?style=social"/> : Tensors and Dynamic neural networks in Python with strong GPU acceleration. [pytorch.org](https://pytorch.org/)
+
+        - [MooreThreads/torch_musa](https://github.com/MooreThreads/torch_musa) <img src="https://img.shields.io/github/stars/MooreThreads/torch_musa?style=social"/> : torch_musa is an open source repository based on PyTorch, which can make full use of the super computing power of MooreThreads graphics cards.
 
         - [PaddlePaddle](https://github.com/PaddlePaddle/Paddle) <img src="https://img.shields.io/github/stars/PaddlePaddle/Paddle?style=social"/> : PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）. [www.paddlepaddle.org/](http://www.paddlepaddle.org/)
 
@@ -558,9 +580,15 @@
 
     - #### Triton Machine Learning Framework
 
+        - [BobMcDear/attorch](https://github.com/BobMcDear/attorch) <img src="https://img.shields.io/github/stars/BobMcDear/attorch?style=social"/> : A subset of PyTorch's neural network modules, written in Python using OpenAI's Triton.
+
+
+    - #### Triton LLM Operator Library
+
         - [Liger-Kernel](https://github.com/linkedin/Liger-Kernel) <img src="https://img.shields.io/github/stars/linkedin/Liger-Kernel?style=social"/> : Efficient Triton Kernels for LLM Training. [arxiv.org/pdf/2410.10989](https://arxiv.org/pdf/2410.10989)
 
-        - [BobMcDear/attorch](https://github.com/BobMcDear/attorch) <img src="https://img.shields.io/github/stars/BobMcDear/attorch?style=social"/> : A subset of PyTorch's neural network modules, written in Python using OpenAI's Triton.
+        - [FlagGems](https://github.com/FlagOpen/FlagGems) <img src="https://img.shields.io/github/stars/FlagOpen/FlagGems?style=social"/> : FlagGems is a high-performance general operator library implemented in [OpenAI Triton](https://github.com/openai/triton). It aims to provide a suite of kernel functions to accelerate LLM training and inference.
+
 
 
     - #### Triton Inference Framework
@@ -703,52 +731,6 @@
 
 ## Blogs
 
-
-  - ### HPC Blogs
-
-    - [Modular Blog](https://www.modular.com/blog)
-        - [2023-03-23，AI’s compute fragmentation: what matrix multiplication teaches us](https://www.modular.com/blog/ais-compute-fragmentation-what-matrix-multiplication-teaches-us)
-        - [2023-04-20，The world's fastest unified matrix multiplication](https://www.modular.com/blog/the-worlds-fastest-unified-matrix-multiplication)
-        - [2023-05-02，A unified, extensible platform to superpower your AI](https://www.modular.com/blog/a-unified-extensible-platform-to-superpower-your-ai)
-        - [2023-08-18，How Mojo🔥 gets a 35,000x speedup over Python – Part 1](https://www.modular.com/blog/how-mojo-gets-a-35-000x-speedup-over-python-part-1)
-        - [2023-08-28，How Mojo🔥 gets a 35,000x speedup over Python – Part 2](https://www.modular.com/blog/how-mojo-gets-a-35-000x-speedup-over-python-part-2)
-        - [2023-09-06，Mojo🔥 - A journey to 68,000x speedup over Python - Part 3](https://www.modular.com/blog/mojo-a-journey-to-68-000x-speedup-over-python-part-3)
-        - [2024-02-12，Mojo vs. Rust: is Mojo 🔥 faster than Rust 🦀 ?](https://www.modular.com/blog/mojo-vs-rust-is-mojo-faster-than-rust)
-        - [2024-04-10，Row-major vs. column-major matrices: a performance analysis in Mojo and NumPy](https://www.modular.com/blog/row-major-vs-column-major-matrices-a-performance-analysis-in-mojo-and-numpy)
-    - 微信公众号「RVBoards」
-        - [2021-03-23，张先轶博士：OpenBLAS项目与矩阵乘法优化](https://mp.weixin.qq.com/s/20SX_FL4cEDUx9pDJpOxnA)
-    - 微信公众号「猿禹宙」
-        - [2023-11-11， 朱懿：HPC之矩阵乘法高性能实验报告](https://mp.weixin.qq.com/s/WoDacoBqAJeV4PgNGtDq_A)
-    - 微信公众号「NeuralTalk」
-        - [2023-06-16，SIMD 指令集与数据并行程序](https://mp.weixin.qq.com/s/dgTtEY5NZh-npQ6KN2WoaA)
-    - 微信公众号「有限元语言与编程」
-        - [2024-05-21，并行计算：超级大脑背后的魔术师](https://mp.weixin.qq.com/s/GnnJtXr6BZrnGsHJB-a-ag)
-        - [2024-06-29，BLAS简介：基于Fortran的高性能矩阵计算基础库](https://mp.weixin.qq.com/s/FXkxeezDVEY7asjl_PWX1g)
-        - [2024-07-08，LAPACK简介：基于Fortran的高性能线性代数工具箱](https://mp.weixin.qq.com/s/iAxHrRFmVtcpX8otZytHvw)
-    - 微信公众号「鸟窝聊技术」
-        - [2024-07-12，使用SIMD优化二叉搜索树](https://mp.weixin.qq.com/s/u8BcfQKmtWIB86B4GetULQ)
-    - 微信公众号「OpenCV与AI深度学习」
-        - [2024-06-21，YOLOv10在PyTorch和OpenVINO中推理对比](https://mp.weixin.qq.com/s/xZ4HlfBPXFbf8OPxmXwbrQ)
-
-    - [知乎「白牛」](https://www.zhihu.com/people/huan-jun-81)
-        - [2023-05-04，OpenBLAS gemm从零入门](https://zhuanlan.zhihu.com/p/65436463)
-    - [知乎「庄碧晨」](https://www.zhihu.com/people/zhuang-chen-84-13)
-        - [2021-01-22，多线程 GEMM 论文 笔记](https://zhuanlan.zhihu.com/p/346254572)
-    - [知乎「OeuFcoque」](https://www.zhihu.com/people/fsybdh)
-        - [2020-04-12，高性能计算简介（一）：初步分析，BLAS，BLIS简介](https://zhuanlan.zhihu.com/p/129187064)
-    - [知乎「赵小明12138」](https://www.zhihu.com/people/zhao-qi-ming-67)
-        - [2022-10-26，并行计算-canon算法：矩阵相乘](https://zhuanlan.zhihu.com/p/577512867)
-    - [知乎「zero」](https://www.zhihu.com/people/zero-35-40)
-        - [2021-12-18，稠密矩阵乘003(gemm)-OpenBLAS和BLIS分块策略](https://zhuanlan.zhihu.com/p/446908156)
-    - [知乎「严忻恺」](https://www.zhihu.com/people/yan-xin-kai-38)
-        - [2022-03-31，斯坦福CS217(三)GEMM计算加速](https://zhuanlan.zhihu.com/p/280771849)
-    - [黎明灰烬 博客](https://zhenhuaw.me/)
-        - [2019-06-12，通用矩阵乘（GEMM）优化算法](http://zhenhuaw.me/blog/2019/gemm-optimization.html)
-
-
-
-
-
   - ### CUDA Blogs
 
     - 微信公众号「NVIDIA英伟达」
@@ -762,8 +744,7 @@
         - [2024-06-20，NVIDIA Isaac Sim 4.0 和 NVIDIA Isaac Lab 为机器人工作流和仿真提供强大助力](https://mp.weixin.qq.com/s/BYqLDexhHnPMVsQMPLWpOA)
         - [2024-06-21，消除仿真与现实之间的差距：使用 NVIDIA Isaac Lab 训练 Spot 四足机器人运动](https://mp.weixin.qq.com/s/Nb4oMxijBofiidSAHkafag)
         - [2024-07-01，NVIDIA 端到端解决方案助力理想汽车打造智能驾驶体验与个性化车内空间](https://mp.weixin.qq.com/s/gmkYFj5BcJZHO4GJ_b8pyQ)
-    - 微信公众号「智源FlagOpen」
-        - [2024-09-18，Triton大会@硅谷：芯片、AI大厂齐站台](https://mp.weixin.qq.com/s/euX2nxQ4lhG6yaLYMugyrw)
+        - [2024-11-27，NVIDIA TensorRT-LLM Roadmap 现已在 GitHub 上公开发布！](https://mp.weixin.qq.com/s/zqAkxmWinwNMbcIBVA1hnA)
     - 微信公众号「AI不止算法」
         - [2024-03-20，C++模板推导再炫技：统一AI各个device各个kernel的调用和分发](https://mp.weixin.qq.com/s/r1XFocdVrfuArDWzpBYdAg)
         - [2024-04-09，全网首篇从tensorRT-LLM MoE CUDA kernel角度理解Mixtral-8x7b的推理加速及展望](https://mp.weixin.qq.com/s/3PsVUba-kTLIHK_s0RA2ow)
@@ -796,6 +777,7 @@
         - [2024-05-14，快速提升性能，如何更好地使用GPU（下）](https://mp.weixin.qq.com/s/NPcCHlLjBZeUiAhQOHX5qA)
         - [2024-05-22，大模型精度（FP16，FP32，BF16）详解与实践](https://mp.weixin.qq.com/s/95CUl1bGN-fSvmAbH0O-DA)
         - [2024-07-24，CUDA性能简易优化（一）背景知识](https://mp.weixin.qq.com/s/mFMlBh3zPZaCRWQH-neeDA)
+        - [2024-08-06，如何把 PyTorch 的 GPU 利用率提升到 100% ?](https://mp.weixin.qq.com/s/Hwc32FDTOMaZSbbtNInCtg)
         - [2024-08-13，TensorRT-LLM初探（三）最佳部署实践](https://mp.weixin.qq.com/s/BiSvYW0-Nb6qf-bTXTRUwg)
     - 微信公众号「DeepPrompting」
         - [2024-01-09，LLM推理库TensorRT-LLM深入分析](https://mp.weixin.qq.com/s/hI6maWtVGHnTi0uGPj6tmA)
@@ -812,8 +794,19 @@
         - [2024-07-06，CUDA-MODE 课程笔记 第二课: PMPP 书的第1-3章速通](https://mp.weixin.qq.com/s/y0fYn8gUqHqEoRO41ftKnA)
         - [2024-07-13，CUDA-MODE 课程笔记 第四课: PMPP 书的第4-5章笔记](https://mp.weixin.qq.com/s/P87c8LRJ1CEOOyaQw8L-cA)
         - [2024-07-18，CUDA-MODE课程笔记 第6课: 如何优化PyTorch中的优化器](https://mp.weixin.qq.com/s/qxPYdGZ71DKVLnnYxmvUVA)
+        - [2024-07-19，CUDA-MODE 第一课课后实战（下）](https://mp.weixin.qq.com/s/FCqnQESCQTtlqCG_BSLulA)
         - [2024-07-23，CUTLASS 2.x & CUTLASS 3.x Intro 学习笔记](https://mp.weixin.qq.com/s/r9b1dGyOr82ooMl4LD1n_Q)
+        - [2024-07-28，CUDA-MODE课程笔记 第7课: Quantization Cuda vs Triton](https://mp.weixin.qq.com/s/1gCgpp49NF7sDw__EpO-nw)
+        - [2024-08-01，TRT-LLM中的Quantization GEMM（Ampere Mixed GEMM）CUTLASS 2.x 课程学习笔记](https://mp.weixin.qq.com/s/NPytrkchX25YRBc_6Zy6nA)
+        - [2024-08-05，CUDA-MODE课程笔记 第8课: CUDA性能检查清单](https://mp.weixin.qq.com/s/zJLDVF-yjuZ_lMjaCHoS5g)
         - [2024-09-12，CUDA-MODE课程笔记 第12课，Flash Attention](hhttps://mp.weixin.qq.com/s/IBeBHO5WlS5BfyL0nZaDHg)
+    - 微信公众号「GPUS开发者」
+        - [2023-10-30，利用NVIDIA Jetson Orin的强大能力执行本地LLM模型](https://mp.weixin.qq.com/s/6J7fEnumqpzSGrG3plcInw)
+        - [2024-05-07，基于NVIDIA Jetson AGX Orin和Audio2Face做一个AI聊天数字人](https://mp.weixin.qq.com/s/7z0uU58IxwoXcI4bZ3z68g)
+        - [2024-05-14，CUDA与OpenCL：并行计算革命的冲突与未来](https://mp.weixin.qq.com/s/h0nBvuV8nnfsbX1mjXAXVw)
+        - [2024-10-08，NVIDIA Jetson平台助力Instacart，实现超市智能购物无缝体验](https://mp.weixin.qq.com/s/Q9x83ts0boNoQHZhSIpgUw)
+        - [2024-11-28，TensorRT-LLM：开启Jetson平台上大语言模型推理的新篇章](https://mp.weixin.qq.com/s/FGg1s__LORE6SOzI_VsJYw)
+        - [2024-11-29，在 Nvidia Jetson AGX Orin 上使用 TensorRT-LLM 运行 LLM](https://mp.weixin.qq.com/s/PhrusT3NisyhxtsO7G5U1g)
     - 微信公众号「机器学习研究组订阅」
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
@@ -881,11 +874,7 @@
         - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
     - 微信公众号「DeepDriving」
         - [2023-07-21，AI模型部署 | TensorRT模型INT8量化的Python实现](https://mp.weixin.qq.com/s/IQTCUs8CcfgHxJCyV6cm3w)
-    - 微信公众号「GPUS开发者」
-        - [2023-10-30，利用NVIDIA Jetson Orin的强大能力执行本地LLM模型](https://mp.weixin.qq.com/s/6J7fEnumqpzSGrG3plcInw)
-        - [2024-05-07，基于NVIDIA Jetson AGX Orin和Audio2Face做一个AI聊天数字人](https://mp.weixin.qq.com/s/7z0uU58IxwoXcI4bZ3z68g)
-        - [2024-05-14，CUDA与OpenCL：并行计算革命的冲突与未来](https://mp.weixin.qq.com/s/h0nBvuV8nnfsbX1mjXAXVw)
-        - [2024-10-08，NVIDIA Jetson平台助力Instacart，实现超市智能购物无缝体验](https://mp.weixin.qq.com/s/Q9x83ts0boNoQHZhSIpgUw)
+
     - 微信公众号「人工智能大讲堂」
         - [2024-05-11，我找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)
     - 微信公众号「未来科技潮」
@@ -941,18 +930,11 @@
         - [2024-07-24，CUDA实现matmul的并行策略](https://mp.weixin.qq.com/s/U_-NnW2yx3jnc1vCfEi1Cg)
         - [2024-07-27，flash attention的CUDA编程](https://mp.weixin.qq.com/s/RRP45uuC-KgKZ88bzTLgUQ)
         - [2024-07-30，CUDA实现规约的并行策略](https://mp.weixin.qq.com/s/OslgzL-qXV9KNrzgb3Fsvg)
-        - [2024-08-22，OpenAI Triton 简介（一）](https://mp.weixin.qq.com/s/WWPoIcqUDSYQsUI9HbN5-g)
-        - [2024-10-24，OpenAI Triton 简介（二）](https://mp.weixin.qq.com/s/XVzfsVFWDsteOIXAkqTYIw)
-    - 微信公众号「CV技术指南」
-        - [2024-09-08，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/TABVE-pvXqNmsnkdkv_9MA)
     - 微信公众号「GeekSavvy」
         - [2024-03-19，史上最强芯片推出！英伟达发布新一代BlackWell GPU](https://mp.weixin.qq.com/s/Ld2P68IBzFTDYrx3rY8rNw)
     - 微信公众号「阿木实验室」
         - [2024-07-31，搭载英伟达Jetson Orin的Allspark 2全新亮相，算力高达100TOPS！](https://mp.weixin.qq.com/s/hjU3eH1LAvxVsOHWZXFAyQ)
     - 微信公众号「吃果冻不吐果冻皮」
-        - [2023-05-22，模型推理服务化框架Triton保姆式教程（一）：快速入门 ](https://mp.weixin.qq.com/s/YES9OO9NX6-HnzR-pvfFyQ)
-        - [2023-06-02，模型推理服务化框架Triton保姆式教程（二）：架构解析](https://mp.weixin.qq.com/s/BVKLsQ9GBN_VqStdjielrA)
-        - [2023-06-03，模型推理服务化框架Triton保姆式教程（三）：开发实践](https://mp.weixin.qq.com/s/2jAw7tf4Pvd1o1AmukTiDw)
         - [2024-08-09，如何把 PyTorch 的 GPU 利用率提升到 100% ?](https://mp.weixin.qq.com/s/9HSZppiFjypwu-TttbxqMQ)
     - 微信公众号「AI大模型实验室」
         - [2024-03-19，Nvidia推出Blackwell B200 GPU，是目前最强的人工智能芯片](https://mp.weixin.qq.com/s/SPgz7q_Ycr2lNxeH0WoNEQ)
@@ -964,7 +946,6 @@
         - [2024-03-15，NVIDIA大语言模型落地的全流程解析](https://mp.weixin.qq.com/s/mhGcW8FqLigBeePlRZGBDg)
 
 
-
     - [知乎「是聪明貂吖」](https://www.zhihu.com/people/cmd23333)
         - [2024-02-18，《高性能并行编程与优化》课程笔记目录](https://zhuanlan.zhihu.com/p/671684145)
 
@@ -972,6 +953,84 @@
 
 
 
+  - ### Triton Blogs
+
+    - 微信公众号「智源研究院」
+        - [2024-07-09，智源打造基于Triton的大模型算子库，助力AI芯片软硬件生态建设](https://mp.weixin.qq.com/s/03EYxAyu4uWI4tjMkFZjSQ)
+    - 微信公众号「智源FlagOpen」
+        - [2024-09-06，智源打造基于Triton的大模型算子库，助力AI芯片软硬件生态建设](https://mp.weixin.qq.com/s/QMzgj-h6q2mZHokS5QpXmg)
+        - [2024-09-18，Triton大会@硅谷：芯片、AI大厂齐站台](https://mp.weixin.qq.com/s/euX2nxQ4lhG6yaLYMugyrw)
+        - [2024-11-20，Triton活动｜Triton中国社区贡献者茶话会](https://mp.weixin.qq.com/s/ASU1Z9B21kD8WJMhZ5E_ZA)
+        - [2024-12-04，Triton中国社区贡献者茶话会圆满落地](https://mp.weixin.qq.com/s/vtSMaGgp_Uxo_QvmmV7sjg)
+        - [2024-12-10，Triton入门实践 | 算子性能优化：自动调优的艺术](https://mp.weixin.qq.com/s/txtyci4MUCVNpTZwF6fS4Q)
+    - 微信公众号「摩尔线程」
+        - [2024-07-18，摩尔线程 × 智源研究院｜完成基于Triton的大模型算子库适配](https://mp.weixin.qq.com/s/84LKQ4Xo1RSdNoFJG0tUmg)
+        - [2024-11-05，开源vLLM-MUSA｜摩尔线程持续加速基于国产GPU的AI大模型推理开发](https://mp.weixin.qq.com/s/5YLCXLlkbZ9WwoaiSIFJhA)
+        - [2024-11-12，开源MUTLASS｜摩尔线程加速基于国产GPU的算子开发以及算法创新](https://mp.weixin.qq.com/s/Nm8BKAJD_ibht8pG9CfEFQ)
+    - 微信公众号「HyperAI超神经」
+        - [2024-10-14，首个完整 Triton 中文文档上线！开启 GPU 推理加速新时代](https://mp.weixin.qq.com/s/ytuxAMlpss5Il_cWf8Y1YQ)
+    - 微信公众号「InfiniTensor」
+        - [2024-08-22，OpenAI Triton 简介（一）](https://mp.weixin.qq.com/s/WWPoIcqUDSYQsUI9HbN5-g)
+        - [2024-10-24，OpenAI Triton 简介（二）](https://mp.weixin.qq.com/s/XVzfsVFWDsteOIXAkqTYIw)
+    - 微信公众号「吃果冻不吐果冻皮」
+        - [2023-05-22，模型推理服务化框架Triton保姆式教程（一）：快速入门 ](https://mp.weixin.qq.com/s/YES9OO9NX6-HnzR-pvfFyQ)
+        - [2023-06-02，模型推理服务化框架Triton保姆式教程（二）：架构解析](https://mp.weixin.qq.com/s/BVKLsQ9GBN_VqStdjielrA)
+        - [2023-06-03，模型推理服务化框架Triton保姆式教程（三）：开发实践](https://mp.weixin.qq.com/s/2jAw7tf4Pvd1o1AmukTiDw)
+    - 微信公众号「GiantPandaCV」
+        - [2024-01-22，【BBuf的CUDA笔记】十三，OpenAI Triton 入门笔记一](https://mp.weixin.qq.com/s/RMR_n1n6nBqpdMl6tdd7pQ)
+        - [2024-10-08，【翻译】【PyTorch 奇技淫巧】FlexAttetion 基于Triton打造灵活度拉满的Attention](https://mp.weixin.qq.com/s/KJUk-jmwGPrJvVuLQ44DyQ)
+    - 微信公众号「新智元」
+        - [2024-09-06，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/AiViRkOOpmIUm8DfRUu4JA)
+    - 微信公众号「CV技术指南」
+        - [2024-09-08，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/TABVE-pvXqNmsnkdkv_9MA)
+    - 微信公众号「AI时代窗口」
+        - [2024-09-10，不依赖CUDA的大模型推理已经实现](https://mp.weixin.qq.com/s/TrzwSBQ301Grcpye9-pt1Q)
+
+
+
+
+
+
+  - ### HPC Blogs
+
+    - 微信公众号「RVBoards」
+        - [2021-03-23，张先轶博士：OpenBLAS项目与矩阵乘法优化](https://mp.weixin.qq.com/s/20SX_FL4cEDUx9pDJpOxnA)
+    - 微信公众号「猿禹宙」
+        - [2023-11-11， 朱懿：HPC之矩阵乘法高性能实验报告](https://mp.weixin.qq.com/s/WoDacoBqAJeV4PgNGtDq_A)
+    - 微信公众号「NeuralTalk」
+        - [2023-06-16，SIMD 指令集与数据并行程序](https://mp.weixin.qq.com/s/dgTtEY5NZh-npQ6KN2WoaA)
+    - 微信公众号「有限元语言与编程」
+        - [2024-05-21，并行计算：超级大脑背后的魔术师](https://mp.weixin.qq.com/s/GnnJtXr6BZrnGsHJB-a-ag)
+        - [2024-06-29，BLAS简介：基于Fortran的高性能矩阵计算基础库](https://mp.weixin.qq.com/s/FXkxeezDVEY7asjl_PWX1g)
+        - [2024-07-08，LAPACK简介：基于Fortran的高性能线性代数工具箱](https://mp.weixin.qq.com/s/iAxHrRFmVtcpX8otZytHvw)
+    - 微信公众号「鸟窝聊技术」
+        - [2024-07-12，使用SIMD优化二叉搜索树](https://mp.weixin.qq.com/s/u8BcfQKmtWIB86B4GetULQ)
+    - 微信公众号「OpenCV与AI深度学习」
+        - [2024-06-21，YOLOv10在PyTorch和OpenVINO中推理对比](https://mp.weixin.qq.com/s/xZ4HlfBPXFbf8OPxmXwbrQ)
+
+    - [知乎「白牛」](https://www.zhihu.com/people/huan-jun-81)
+        - [2023-05-04，OpenBLAS gemm从零入门](https://zhuanlan.zhihu.com/p/65436463)
+    - [知乎「庄碧晨」](https://www.zhihu.com/people/zhuang-chen-84-13)
+        - [2021-01-22，多线程 GEMM 论文 笔记](https://zhuanlan.zhihu.com/p/346254572)
+    - [知乎「OeuFcoque」](https://www.zhihu.com/people/fsybdh)
+        - [2020-04-12，高性能计算简介（一）：初步分析，BLAS，BLIS简介](https://zhuanlan.zhihu.com/p/129187064)
+    - [知乎「赵小明12138」](https://www.zhihu.com/people/zhao-qi-ming-67)
+        - [2022-10-26，并行计算-canon算法：矩阵相乘](https://zhuanlan.zhihu.com/p/577512867)
+    - [知乎「zero」](https://www.zhihu.com/people/zero-35-40)
+        - [2021-12-18，稠密矩阵乘003(gemm)-OpenBLAS和BLIS分块策略](https://zhuanlan.zhihu.com/p/446908156)
+    - [知乎「严忻恺」](https://www.zhihu.com/people/yan-xin-kai-38)
+        - [2022-03-31，斯坦福CS217(三)GEMM计算加速](https://zhuanlan.zhihu.com/p/280771849)
+    - [黎明灰烬 博客](https://zhenhuaw.me/)
+        - [2019-06-12，通用矩阵乘（GEMM）优化算法](http://zhenhuaw.me/blog/2019/gemm-optimization.html)
+    - [Modular Blog](https://www.modular.com/blog)
+        - [2023-03-23，AI’s compute fragmentation: what matrix multiplication teaches us](https://www.modular.com/blog/ais-compute-fragmentation-what-matrix-multiplication-teaches-us)
+        - [2023-04-20，The world's fastest unified matrix multiplication](https://www.modular.com/blog/the-worlds-fastest-unified-matrix-multiplication)
+        - [2023-05-02，A unified, extensible platform to superpower your AI](https://www.modular.com/blog/a-unified-extensible-platform-to-superpower-your-ai)
+        - [2023-08-18，How Mojo🔥 gets a 35,000x speedup over Python – Part 1](https://www.modular.com/blog/how-mojo-gets-a-35-000x-speedup-over-python-part-1)
+        - [2023-08-28，How Mojo🔥 gets a 35,000x speedup over Python – Part 2](https://www.modular.com/blog/how-mojo-gets-a-35-000x-speedup-over-python-part-2)
+        - [2023-09-06，Mojo🔥 - A journey to 68,000x speedup over Python - Part 3](https://www.modular.com/blog/mojo-a-journey-to-68-000x-speedup-over-python-part-3)
+        - [2024-02-12，Mojo vs. Rust: is Mojo 🔥 faster than Rust 🦀 ?](https://www.modular.com/blog/mojo-vs-rust-is-mojo-faster-than-rust)
+        - [2024-04-10，Row-major vs. column-major matrices: a performance analysis in Mojo and NumPy](https://www.modular.com/blog/row-major-vs-column-major-matrices-a-performance-analysis-in-mojo-and-numpy)
 
 
 
@@ -991,22 +1050,14 @@
 
 
 
+## Interview
 
-
-
-## Jobs and Interview
-
+  - 微信公众号「大模型生态圈」
+    - [2024-04-21，推理部署工程师面试题库](https://mp.weixin.qq.com/s/q46vKFPlQhcN7LyZNTRhXA)
+  - 微信公众号「Cver」
+    - [2024-06-01，英伟达算法岗面试，问的贼细！](https://mp.weixin.qq.com/s/dwXC572U9u5SAmJPnyjHXA)
   - 微信公众号「高通内推王」
     - [2023-12-21，[英伟达内推] 英*达面试过程全面剖析](https://mp.weixin.qq.com/s/GoZKlLfdoGN9ngbe_PzG7w)
     - [2024-04-16，一份英伟达的offer，一年能到手多少钱](https://mp.weixin.qq.com/s/dZAG-AXbZkGi9CJQZMhCNA)
-    - [2024-04-22，英伟达大力建设智能驾驶中心，扩大招聘，欢迎来内推](https://mp.weixin.qq.com/s/I17_SxwUFWJnyc2gkLobjQ)
-  - 微信公众号「美团技术团队」
-    - [2024-03-21，美团自动配送车2024春季招聘 | 社招专场](https://mp.weixin.qq.com/s/2e0g-7fD8Fbp65LbjGdVnA)
-  - 微信公众号「大模型生态圈」
-    - [2024-04-21，推理部署工程师面试题库](https://mp.weixin.qq.com/s/q46vKFPlQhcN7LyZNTRhXA)
-  - 微信公众号「神仙外企」
-    - [2024-05-14，半导体外企 | NVIDIA英伟达招聘！13薪，月薪20-80k，含非技术岗，内部定制礼品，22周全薪产假](https://mp.weixin.qq.com/s/VhrKxKGDqCiQmXLisX88yA)
-  - 微信公众号「Cver」
-    - [2024-06-01，英伟达算法岗面试，问的贼细！](https://mp.weixin.qq.com/s/dwXC572U9u5SAmJPnyjHXA)
   - [知乎「Tim在路上​」](https://www.zhihu.com/people/lao-zhang-cao-mei-yuan)
     - [2024-01-18，国内大厂GPU CUDA高频面试问题汇总（含部分答案）](https://zhuanlan.zhihu.com/p/678602674)
