@@ -1,16 +1,17 @@
-# Awesome-CUDA-Triton-HPC
+# Awesome-CUDA-Triton-MLIR-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
 ## Contents
-- [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
+- [Awesome-CUDA-Triton-MLIR-HPC](#awesome-cuda-triton-mlir-hpc)
   - [Official Version](#official-version)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
     - [Triton Learning](#triton-learning)
+    - [MLIR Learning](#mlir-learning)
     - [HPC Learning](#hpc-learning)
   - [Frameworks](#frameworks)
     - [CUDA Frameworks](#cuda-frameworks)
@@ -36,6 +37,10 @@
     - [Triton Frameworks](#triton-frameworks)
         - [Triton Machine Learning Framework](#triton-machine-learning-framework)
         - [Triton LLM Operator Library](#triton-llm-operator-library)
+    - [MLIR Frameworks](#mlir-frameworks)
+        - [MLIR GPU Programming](#mlir-gpu-programming)
+        - [MLIR FFI Bindings](#mlir-ffi-bindings)
+        - [MLIR Machine learning Framework](#mlir-machine-learning-framework)
     - [HPC Frameworks](#hpc-frameworks)
   - [Applications](#applications)
     - [CUDA Applications](#cuda-applications)
@@ -44,6 +49,7 @@
   - [Blogs](#blogs)
     - [CUDA Blogs](#cuda-blogs)
     - [Triton Blogs](#triton-blogs)
+    - [MLIR Blogs](#mlir-blogs)
     - [HPC Blogs](#hpc-blogs)
   - [Videos](#videos)
   - [Interview](#interview)
@@ -64,7 +70,7 @@
 
   - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
 
-  - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Development repository for the Triton language and compiler. [triton-lang.org/](https://triton-lang.org/)
+  - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Triton is a language and compiler for parallel programming. It aims to provide a Python-based programming environment for productively writing custom DNN compute kernels capable of running at maximal throughput on modern GPU hardware. [triton-lang.org/](https://triton-lang.org/)
 
   - [MLIR](https://mlir.llvm.org/) : Multi-Level Intermediate Representation Compiler Framework. The MLIR project is a novel approach to building reusable and extensible compiler infrastructure. MLIR aims to address software fragmentation, improve compilation for heterogeneous hardware, significantly reduce the cost of building domain specific compilers, and aid in connecting existing compilers together.
 
@@ -72,7 +78,7 @@
 
 ## Awesome List
 
-  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+  - [awesome-cuda-triton-mlir-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
@@ -150,8 +156,6 @@
 
     - [AyakaGEMM/Hands-on-GEMM](https://github.com/AyakaGEMM/Hands-on-GEMM) <img src="https://img.shields.io/github/stars/AyakaGEMM/Hands-on-GEMM?style=social"/> : A GEMM tutorial.
 
-    - [AyakaGEMM/Hands-on-MLIR](https://github.com/AyakaGEMM/Hands-on-MLIR) <img src="https://img.shields.io/github/stars/AyakaGEMM/Hands-on-MLIR?style=social"/> : Hands-on-MLIR.
-
     - [zpzim/MSplitGEMM](https://github.com/zpzim/MSplitGEMM) <img src="https://img.shields.io/github/stars/zpzim/MSplitGEMM?style=social"/> : Large matrix multiplication in CUDA.
 
     - [jundaf2/CUDA-INT8-GEMM](https://github.com/jundaf2/CUDA-INT8-GEMM) <img src="https://img.shields.io/github/stars/jundaf2/CUDA-INT8-GEMM?style=social"/> : CUDA 8-bit Tensor Core Matrix Multiplication based on m16n16k16 WMMA API.
@@ -168,8 +172,6 @@
 
     - [yhwang-hub/Matrix_Multiplication_Performance_Optimization](https://github.com/yhwang-hub/Matrix_Multiplication_Performance_Optimization) <img src="https://img.shields.io/github/stars/yhwang-hub/Matrix_Multiplication_Performance_Optimization?style=social"/> : Matrix Multiplication Performance Optimization.
 
-    - [yao-jiashu/KernelCodeGen](https://github.com/yao-jiashu/KernelCodeGen) <img src="https://img.shields.io/github/stars/yao-jiashu/KernelCodeGen?style=social"/> : GEMM/Conv2d CUDA/HIP kernel code generation using MLIR.
-
     - [caiwanxianhust/ClusteringByCUDA](https://github.com/caiwanxianhust/ClusteringByCUDA) <img src="https://img.shields.io/github/stars/caiwanxianhust/ClusteringByCUDA?style=social"/> : 使用 CUDA C++ 实现的一系列聚类算法。
 
     - [ulrichstern/cuda-convnet](https://github.com/ulrichstern/cuda-convnet) <img src="https://img.shields.io/github/stars/ulrichstern/cuda-convnet?style=social"/> : Alex Krizhevsky's original code from Google Code. "微信公众号「人工智能大讲堂」《[找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)》"。
@@ -181,9 +183,6 @@
     - [PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA](https://github.com/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA) <img src="https://img.shields.io/github/stars/PacktPublishing/Hands-On-GPU-Accelerated-Computer-Vision-with-OpenCV-and-CUDA?style=social"/> : Hands-On GPU Accelerated Computer Vision with OpenCV and CUDA, published by Packt.
 
     - [BobMcDear/neural-network-cuda](https://github.com/BobMcDear/neural-network-cuda) <img src="https://img.shields.io/github/stars/BobMcDear/neural-network-cuda?style=social"/> : Neural network from scratch in CUDA/C++.
-
-
-
 
 
 
@@ -207,7 +206,6 @@
 
 
 
-
   - ### Triton Learning
 
     - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Development repository for the Triton language and compiler. [triton-lang.org/](https://triton-lang.org/)
@@ -215,6 +213,25 @@
     - [Triton Docs](https://triton-lang.org/main/index.html) : Triton Documentation.
 
     - [hyperai/triton-cn](https://github.com/hyperai/triton-cn) <img src="https://img.shields.io/github/stars/hyperai/triton-cn?style=social"/> : Triton Documentation in Chinese Simplified / Triton 中文文档. [triton.hyper.ai](https://triton.hyper.ai/)
+
+
+
+  - ### MLIR Learning
+
+    - [LLVM Docs](https://llvm.org/docs/) : LLVM Documentation.
+
+    - [MLIR Docs](https://mlir.llvm.org/docs/) : MLIR Code Documentation.
+
+    - [BBuf/tvm_mlir_learn](https://github.com/BBuf/tvm_mlir_learn) <img src="https://img.shields.io/github/stars/BBuf/tvm_mlir_learn?style=social"/> : compiler learning resources collect.
+
+    - [j2kun/mlir-tutorial](https://github.com/j2kun/mlir-tutorial) <img src="https://img.shields.io/github/stars/j2kun/mlir-tutorial?style=social"/> : This is the code repository for a series of articles on the [MLIR framework](https://mlir.llvm.org/) for building compilers.
+
+    - [KEKE046/mlir-tutorial](https://github.com/KEKE046/mlir-tutorial) <img src="https://img.shields.io/github/stars/KEKE046/mlir-tutorial?style=social"/> : Hands-On Practical MLIR Tutorial.
+
+    - [AyakaGEMM/Hands-on-MLIR](https://github.com/AyakaGEMM/Hands-on-MLIR) <img src="https://img.shields.io/github/stars/AyakaGEMM/Hands-on-MLIR?style=social"/> : Hands-on-MLIR.
+
+    - [yao-jiashu/KernelCodeGen](https://github.com/yao-jiashu/KernelCodeGen) <img src="https://img.shields.io/github/stars/yao-jiashu/KernelCodeGen?style=social"/> : GEMM/Conv2d CUDA/HIP kernel code generation using MLIR.
+
 
 
   - ### HPC Learning
@@ -607,11 +624,46 @@
 
         - [FlagGems](https://github.com/FlagOpen/FlagGems) <img src="https://img.shields.io/github/stars/FlagOpen/FlagGems?style=social"/> : FlagGems is a high-performance general operator library implemented in [OpenAI Triton](https://github.com/openai/triton). It aims to provide a suite of kernel functions to accelerate LLM training and inference.
 
+        - [linxihui/dkernel](https://github.com/linxihui/dkernel) <img src="https://img.shields.io/github/stars/linxihui/dkernel?style=social"/> : This repo contains customized CUDA kernels written in OpenAI Triton. As of now, it contains the sparse attention kernel used in [phi-3-small models](https://huggingface.co/microsoft/Phi-3-small-8k-instruct). The sparse attention is also supported in vLLM for efficient inference.
+
 
 
     - #### Triton Inference Framework
 
         - [harleyszhang/lite_llama](https://github.com/harleyszhang/lite_llama) <img src="https://img.shields.io/github/stars/harleyszhang/lite_llama?style=social"/> : The llama model inference lite framework by triton.
+
+
+  - ### MLIR Frameworks
+
+    - #### MLIR GPU Programming
+
+        - ['gpu' Dialect](https://mlir.llvm.org/docs/Dialects/GPU/) : This dialect provides middle-level abstractions for launching GPU kernels following a programming model similar to that of CUDA or OpenCL.
+
+        - ['amdgpu' Dialect](https://mlir.llvm.org/docs/Dialects/AMDGPU/) : The AMDGPU dialect provides wrappers around AMD-specific functionality and LLVM intrinsics.
+
+
+
+    - #### MLIR FFI Bindings
+
+        - [pyMLIR](https://github.com/spcl/pymlir) <img src="https://img.shields.io/github/stars/spcl/pymlir?style=social"/> : Python interface for MLIR - the Multi-Level Intermediate Representation. pyMLIR is a full Python interface to parse, process, and output [MLIR](https://mlir.llvm.org/) files according to the syntax described in the [MLIR documentation](https://github.com/llvm/llvm-project/tree/master/mlir/docs). pyMLIR supports the basic dialects and can be extended with other dialects.
+
+
+    - #### MLIR Machine Learning Framework
+
+        - [Torch-MLIR](https://github.com/llvm/torch-mlir) <img src="https://img.shields.io/github/stars/llvm/torch-mlir?style=social"/> : The Torch-MLIR project aims to provide first class support from the PyTorch ecosystem to the MLIR ecosystem.
+
+        - [ONNX-MLIR](https://github.com/onnx/onnx-mlir) <img src="https://img.shields.io/github/stars/onnx/onnx-mlir?style=social"/> : Representation and Reference Lowering of ONNX Models in MLIR Compiler Infrastructure.
+
+        - [TPU-MLIR](https://github.com/sophgo/tpu-mlir) <img src="https://img.shields.io/github/stars/sophgo/tpu-mlir?style=social"/> : Machine learning compiler based on MLIR for Sophgo TPU. TPU-MLIR is an open-source machine-learning compiler based on MLIR for TPU. This project provides a complete toolchain, which can convert pre-trained neural networks from different frameworks into binary files bmodel that can be efficiently operated on TPUs.
+
+        - [IREE](https://github.com/iree-org/iree) <img src="https://img.shields.io/github/stars/iree-org/iree?style=social"/> : IREE: Intermediate Representation Execution Environment. A retargetable MLIR-based machine learning compiler and runtime toolkit. [iree.dev/](http://iree.dev/)
+
+        - [ByteIR](https://github.com/bytedance/byteir) <img src="https://img.shields.io/github/stars/bytedance/byteir?style=social"/> : The ByteIR Project is a ByteDance model compilation solution. ByteIR includes compiler, runtime, and frontends, and provides an end-to-end model compilation solution. [byteir.ai](https://byteir.ai/)
+
+        - [Xilinx/mlir-aie](https://github.com/Xilinx/mlir-aie) <img src="https://img.shields.io/github/stars/Xilinx/mlir-aie?style=social"/> : An MLIR-based toolchain for AMD AI Engine-enabled devices. This repository contains an MLIR-based toolchain for AI Engine-enabled devices, such as [AMD Ryzen™ AI](https://www.amd.com/en/products/processors/consumer/ryzen-ai.html) and [Versal™](https://www.xilinx.com/products/technology/ai-engine.html).
+
+
+
 
 
 
@@ -1007,6 +1059,12 @@
 
 
 
+  - ### MLIR Blogs
+
+    - 微信公众号「GiantPandaCV」
+        - [2023-06-25，MLIR_对自定义IR Dialect编写bufferization pass](https://mp.weixin.qq.com/s/3aHwYDkI9K3u-10v6-9iVA)
+
+
 
 
   - ### HPC Blogs
@@ -1049,6 +1107,7 @@
         - [2023-09-06，Mojo🔥 - A journey to 68,000x speedup over Python - Part 3](https://www.modular.com/blog/mojo-a-journey-to-68-000x-speedup-over-python-part-3)
         - [2024-02-12，Mojo vs. Rust: is Mojo 🔥 faster than Rust 🦀 ?](https://www.modular.com/blog/mojo-vs-rust-is-mojo-faster-than-rust)
         - [2024-04-10，Row-major vs. column-major matrices: a performance analysis in Mojo and NumPy](https://www.modular.com/blog/row-major-vs-column-major-matrices-a-performance-analysis-in-mojo-and-numpy)
+
 
 
 
