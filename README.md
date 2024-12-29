@@ -1,10 +1,10 @@
-# Awesome-CUDA-Triton-MLIR-HPC
+# Awesome-CUDA-Triton-TVM-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
 ## Contents
-- [Awesome-CUDA-Triton-MLIR-HPC](#awesome-cuda-triton-mlir-hpc)
+- [Awesome-CUDA-Triton-TVM-HPC](#awesome-cuda-triton-tvm-hpc)
   - [Official Version](#official-version)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
@@ -72,6 +72,8 @@
 
   - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Triton is a language and compiler for parallel programming. It aims to provide a Python-based programming environment for productively writing custom DNN compute kernels capable of running at maximal throughput on modern GPU hardware. [triton-lang.org/](https://triton-lang.org/)
 
+  - [TVM](https://github.com/apache/tvm) <img src="https://img.shields.io/github/stars/apache/tvm?style=social"/> : Open deep learning compiler stack for cpu, gpu and specialized accelerators. [tvm.apache.org/](https://tvm.apache.org/)
+
   - [MLIR](https://mlir.llvm.org/) : Multi-Level Intermediate Representation Compiler Framework. The MLIR project is a novel approach to building reusable and extensible compiler infrastructure. MLIR aims to address software fragmentation, improve compilation for heterogeneous hardware, significantly reduce the cost of building domain specific compilers, and aid in connecting existing compilers together.
 
 
@@ -92,6 +94,13 @@
 
 
 ## Learning Resources
+
+
+  - [chenzomi12/AISystem](https://github.com/chenzomi12/AISystem) <img src="https://img.shields.io/github/stars/chenzomi12/AISystem?style=social"/> : AISystem 主要是指AI系统，包括AI芯片、AI编译器、AI推理和训练框架等AI全栈底层技术。
+
+  - [chenzomi12/AIFoundation](https://github.com/chenzomi12/AIFoundation) <img src="https://img.shields.io/github/stars/chenzomi12/AIFoundation?style=social"/> : AIFoundation 主要是指AI系统遇到大模型，从底层到上层如何系统级地支持大模型训练和推理，全栈的核心技术。
+
+
 
 
   - ### CUDA Learning
@@ -1077,6 +1086,7 @@
   - ### MLIR Blogs
 
     - 微信公众号「GiantPandaCV」
+        - [2022-05-23，基于 MLIR 完成对 GEMM 的编译优化 中英视频上，中部分](https://mp.weixin.qq.com/s/9wyM3hKsJA0YxFsms1Rpuw)
         - [2023-06-25，MLIR_对自定义IR Dialect编写bufferization pass](https://mp.weixin.qq.com/s/3aHwYDkI9K3u-10v6-9iVA)
 
 
