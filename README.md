@@ -1,10 +1,10 @@
-# Awesome-CUDA-Triton-TVM-HPC
+# Awesome-CUDA-Triton-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
 ## Contents
-- [Awesome-CUDA-Triton-TVM-HPC](#awesome-cuda-triton-tvm-hpc)
+- [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
   - [Official Version](#official-version)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
@@ -49,6 +49,7 @@
   - [Blogs](#blogs)
     - [CUDA Blogs](#cuda-blogs)
     - [Triton Blogs](#triton-blogs)
+    - [TVM Blogs](#tvm-blogs)
     - [MLIR Blogs](#mlir-blogs)
     - [HPC Blogs](#hpc-blogs)
   - [Videos](#videos)
@@ -80,7 +81,7 @@
 
 ## Awesome List
 
-  - [awesome-cuda-triton-mlir-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : A collection of some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://triton-lang.org), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
@@ -1057,6 +1058,7 @@
         - [2024-11-20，Triton活动｜Triton中国社区贡献者茶话会](https://mp.weixin.qq.com/s/ASU1Z9B21kD8WJMhZ5E_ZA)
         - [2024-12-04，Triton中国社区贡献者茶话会圆满落地](https://mp.weixin.qq.com/s/vtSMaGgp_Uxo_QvmmV7sjg)
         - [2024-12-10，Triton入门实践 | 算子性能优化：自动调优的艺术](https://mp.weixin.qq.com/s/txtyci4MUCVNpTZwF6fS4Q)
+        - [2024-12-19，智源大模型通用算子库FlagGems四大能力升级，为AI系统开源生态注入新活力](https://mp.weixin.qq.com/s/2X5DyY1MbYhz6zVusPpKww)
     - 微信公众号「摩尔线程」
         - [2024-07-18，摩尔线程 × 智源研究院｜完成基于Triton的大模型算子库适配](https://mp.weixin.qq.com/s/84LKQ4Xo1RSdNoFJG0tUmg)
         - [2024-11-05，开源vLLM-MUSA｜摩尔线程持续加速基于国产GPU的AI大模型推理开发](https://mp.weixin.qq.com/s/5YLCXLlkbZ9WwoaiSIFJhA)
@@ -1080,6 +1082,11 @@
     - 微信公众号「AI时代窗口」
         - [2024-09-10，不依赖CUDA的大模型推理已经实现](https://mp.weixin.qq.com/s/TrzwSBQ301Grcpye9-pt1Q)
 
+
+  - ### TVM Blogs
+
+    - 微信公众号「小喵学AI」
+        - [2023-05-04，实战 | TVM优化Pytorch模型](https://mp.weixin.qq.com/s/I-YXPJel_g0rGS9Vy8BE3Q)
 
 
 
