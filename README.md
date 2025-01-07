@@ -1,7 +1,7 @@
 # Awesome-CUDA-Triton-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
@@ -11,6 +11,7 @@
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
     - [Triton Learning](#triton-learning)
+    - [TVM Learning](#tvm-learning)
     - [MLIR Learning](#mlir-learning)
     - [HPC Learning](#hpc-learning)
   - [Frameworks](#frameworks)
@@ -22,6 +23,7 @@
             - [Julia Version](#julia-version)
         - [Performance Benchmark](#performance-benchmark)
         - [Scientific Computing Framework](#scientific-computing-framework)
+        - [Attention and Transformer Framework](#attention-and-transformer-framework)
         - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
             - [LLM Inference and Serving Engine](#llm-inference-and-serving-engine)
@@ -196,7 +198,17 @@
 
     - [BobMcDear/neural-network-cuda](https://github.com/BobMcDear/neural-network-cuda) <img src="https://img.shields.io/github/stars/BobMcDear/neural-network-cuda?style=social"/> : Neural network from scratch in CUDA/C++.
 
+    - [zjhellofss/KuiperLLama](https://github.com/zjhellofss/KuiperLLama) <img src="https://img.shields.io/github/stars/zjhellofss/KuiperLLama?style=social"/> : 《动手自制大模型推理框架》。KuiperLLama 动手自制大模型推理框架，支持LLama2/3和Qwen2.5。校招、秋招、春招、实习好项目，带你从零动手实现支持LLama2/3和Qwen2.5的大模型推理框架。
 
+    - [zjhellofss/KuiperInfer](https://github.com/zjhellofss/KuiperInfer) <img src="https://img.shields.io/github/stars/zjhellofss/KuiperInfer?style=social"/> :  校招、秋招、春招、实习好项目！带你从零实现一个高性能的深度学习推理库，支持大模型 llama2 、Unet、Yolov5、Resnet等模型的推理。Implement a high-performance deep learning inference library step by step。
+
+    - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
+
+    - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
+
+    - [MarioSieg/magnetron](https://github.com/MarioSieg/magnetron) <img src="https://img.shields.io/github/stars/MarioSieg/magnetron?style=social"/> :  (WIP) A small but powerful, homemade PyTorch from scratch. Minimalistic homemade PyTorch alternative, written in C99 and Python.
+
+    - [lucasdelimanogueira/PyNorch](https://github.com/lucasdelimanogueira/PyNorch) <img src="https://img.shields.io/github/stars/lucasdelimanogueira/PyNorch?style=social"/> :  Recreating PyTorch from scratch (C/C++, CUDA, NCCL and Python, with multi-GPU support and automatic differentiation!)
 
 
 
@@ -225,6 +237,11 @@
     - [Triton Docs](https://triton-lang.org/main/index.html) : Triton Documentation.
 
     - [hyperai/triton-cn](https://github.com/hyperai/triton-cn) <img src="https://img.shields.io/github/stars/hyperai/triton-cn?style=social"/> : Triton Documentation in Chinese Simplified / Triton 中文文档. [triton.hyper.ai](https://triton.hyper.ai/)
+
+
+  - ### TVM Learning
+
+    - [Apache TVM 中文站](https://tvm.hyper.ai/) : Apache TVM 中文文档！
 
 
 
@@ -401,6 +418,18 @@
         - [custos-math](https://github.com/elftausend/custos-math) <img src="https://img.shields.io/github/stars/elftausend/custos-math?style=social"/> : This crate provides CUDA, OpenCL, CPU (and Stack) based matrix operations using [custos](https://github.com/elftausend/custos).
 
 
+    - #### Attention and Transformer Framework
+
+        - [FlashAttention](https://github.com/Dao-AILab/flash-attention) <img src="https://img.shields.io/github/stars/Dao-AILab/flash-attention?style=social"/> : Fast and memory-efficient exact attention. "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness". (**[arXiv 2022](https://arxiv.org/abs/2205.14135)**).
+
+        - [66RING/tiny-flash-attention](https://github.com/66RING/tiny-flash-attention) <img src="https://img.shields.io/github/stars/66RING/tiny-flash-attention?style=social"/> : [flash attention](https://github.com/Dao-AILab/flash-attention) tutorial written in python, triton, cuda, cutlass.
+
+        - [weishengying/tiny-flash-attention](https://github.com/weishengying/tiny-flash-attention) <img src="https://img.shields.io/github/stars/weishengying/tiny-flash-attention?style=social"/> : 使用 cutlass 实现 flash-attention 精简版，具有教学意义。
+
+        - [jepeake/tiny-flash-attention](https://github.com/jepeake/tiny-flash-attention) <img src="https://img.shields.io/github/stars/jepeake/tiny-flash-attention?style=social"/> : flash attention in ~20 lines.
+
+
+
 
     - #### Machine Learning Framework
 
@@ -414,9 +443,21 @@
 
         - [flashlight/flashlight](https://github.com/flashlight/flashlight) <img src="https://img.shields.io/github/stars/flashlight/flashlight?style=social"/> : A C++ standalone library for machine learning. [fl.readthedocs.io/en/latest/](https://fl.readthedocs.io/en/latest/)
 
+        - [yhwang-hub/dl_model_infer](https://github.com/yhwang-hub/dl_model_infer) <img src="https://img.shields.io/github/stars/yhwang-hub/dl_model_infer?style=social"/> : his is a c++ version of the AI reasoning library. Currently, it only supports the reasoning of the tensorrt model. The follow-up plan supports the c++ reasoning of frameworks such as Openvino, NCNN, and MNN. There are two versions for pre- and post-processing, c++ version and cuda version. It is recommended to use the cuda version., This repository provides accelerated deployment cases of deep learning CV popular models, and cuda c supports dynamic-batch image process, infer, decode, NMS.
+
         - [NVlabs/tiny-cuda-nn](https://github.com/NVlabs/tiny-cuda-nn) <img src="https://img.shields.io/github/stars/NVlabs/tiny-cuda-nn?style=social"/> : Lightning fast C++/CUDA neural network framework.
 
-        - [yhwang-hub/dl_model_infer](https://github.com/yhwang-hub/dl_model_infer) <img src="https://img.shields.io/github/stars/yhwang-hub/dl_model_infer?style=social"/> : his is a c++ version of the AI reasoning library. Currently, it only supports the reasoning of the tensorrt model. The follow-up plan supports the c++ reasoning of frameworks such as Openvino, NCNN, and MNN. There are two versions for pre- and post-processing, c++ version and cuda version. It is recommended to use the cuda version., This repository provides accelerated deployment cases of deep learning CV popular models, and cuda c supports dynamic-batch image process, infer, decode, NMS.
+        - [zjhellofss/KuiperLLama](https://github.com/zjhellofss/KuiperLLama) <img src="https://img.shields.io/github/stars/zjhellofss/KuiperLLama?style=social"/> : 《动手自制大模型推理框架》。KuiperLLama 动手自制大模型推理框架，支持LLama2/3和Qwen2.5。校招、秋招、春招、实习好项目，带你从零动手实现支持LLama2/3和Qwen2.5的大模型推理框架。
+
+        - [zjhellofss/KuiperInfer](https://github.com/zjhellofss/KuiperInfer) <img src="https://img.shields.io/github/stars/zjhellofss/KuiperInfer?style=social"/> :  校招、秋招、春招、实习好项目！带你从零实现一个高性能的深度学习推理库，支持大模型 llama2 、Unet、Yolov5、Resnet等模型的推理。Implement a high-performance deep learning inference library step by step。
+
+        - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
+
+        - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
+
+        - [MarioSieg/magnetron](https://github.com/MarioSieg/magnetron) <img src="https://img.shields.io/github/stars/MarioSieg/magnetron?style=social"/> :  (WIP) A small but powerful, homemade PyTorch from scratch. Minimalistic homemade PyTorch alternative, written in C99 and Python.
+
+        - [lucasdelimanogueira/PyNorch](https://github.com/lucasdelimanogueira/PyNorch) <img src="https://img.shields.io/github/stars/lucasdelimanogueira/PyNorch?style=social"/> :  Recreating PyTorch from scratch (C/C++, CUDA, NCCL and Python, with multi-GPU support and automatic differentiation!)
 
 
     - #### AI Inference Framework
@@ -944,6 +985,7 @@
         - [2024-04-22，CUDA编程中，Tensor Cores的详细拆解](https://mp.weixin.qq.com/s/uDWOg9-pRudcvroZADsIbg)
         - [2024-06-22，FP8量化解读，8bit下部署最优方案？](https://mp.weixin.qq.com/s/5DdMXCRq7X6QkS2yXJqF7g)
         - [2024-06-26，Cuda编程实践，我的第一份Cuda代码](https://mp.weixin.qq.com/s/JxpNDmDTiS-ctCCG-RY1nw)
+        - [2025-01-03，AI项目工程化，CUDA开发心得汇总！](https://mp.weixin.qq.com/s/9mSV2ZY6EdBAAbtgq4gkZg)
     - 微信公众号「Tim在路上」
         - [2024-03-25，理解NVIDIA GPU 性能：利用率与饱和度](https://mp.weixin.qq.com/s/4_An51JuRGWTU0dLgZYHpQ)
         - [2024-04-30，加速矩阵计算：英伟达TensorCore架构演进与原理最全解析](https://mp.weixin.qq.com/s/dwT1Fl6F4V1MvWGgt1ac0Q)
@@ -1081,6 +1123,9 @@
         - [2024-09-08，PyTorch官宣：告别CUDA，GPU推理迎来Triton加速新时代](https://mp.weixin.qq.com/s/TABVE-pvXqNmsnkdkv_9MA)
     - 微信公众号「AI时代窗口」
         - [2024-09-10，不依赖CUDA的大模型推理已经实现](https://mp.weixin.qq.com/s/TrzwSBQ301Grcpye9-pt1Q)
+    - 微信公众号「先进编译实验室」
+        - [2025-01-04，探索 Triton 编程密码：语法与实践指南大揭秘](https://mp.weixin.qq.com/s/e2iZNBdiBPRmF_8GrLCKfw)
+
 
 
   - ### TVM Blogs
