@@ -33,7 +33,7 @@
             - [Rust Implementation](#rust-implementation)
             - [zig Implementation](#zig-implementation)
             - [Go Implementation](#go-implementation)
-        - [Multi-GPU Framework](#multi-gpu-framework)
+        - [Distributed and Multi-GPU Framework](#distributed-and-multi-gpu-framework)
         - [Robotics Framework](#robotics-framework)
         - [ZKP and Web3 Framework](#zkp-and-web3-framework)
     - [Triton Frameworks](#triton-frameworks)
@@ -209,6 +209,16 @@
     - [MarioSieg/magnetron](https://github.com/MarioSieg/magnetron) <img src="https://img.shields.io/github/stars/MarioSieg/magnetron?style=social"/> :  (WIP) A small but powerful, homemade PyTorch from scratch. Minimalistic homemade PyTorch alternative, written in C99 and Python.
 
     - [lucasdelimanogueira/PyNorch](https://github.com/lucasdelimanogueira/PyNorch) <img src="https://img.shields.io/github/stars/lucasdelimanogueira/PyNorch?style=social"/> :  Recreating PyTorch from scratch (C/C++, CUDA, NCCL and Python, with multi-GPU support and automatic differentiation!)
+
+    - [xgqdut2016/cuda_code](https://github.com/xgqdut2016/cuda_code) <img src="https://img.shields.io/github/stars/xgqdut2016/cuda_code?style=social"/> : easy cuda code. CUDA代码简单入门。
+
+    - [xgqdut2016/hpc_project](https://github.com/xgqdut2016/hpc_project) <img src="https://img.shields.io/github/stars/xgqdut2016/hpc_project?style=social"/> : some hpc project for learning.
+
+    - [xgqdut2016/hpc2torch](https://github.com/xgqdut2016/hpc2torch) <img src="https://img.shields.io/github/stars/xgqdut2016/hpc2torch?style=social"/> : 这个仓库打算搭建一个高性能底层库的测试框架，将会针对onnx的算子编写相关的高性能kernel，作为pytorch的补充，从python端对比手写kernel和pytorch库函数的性能以及精度对比。
+
+
+
+
 
 
 
@@ -629,14 +639,17 @@
 
 
 
-    - #### Multi-GPU Framework
-      ##### 多GPU框架
+    - #### Distributed and Multi-GPU Framework
+      ##### 分布式以及多GPU框架
 
         - [NVIDIA/nccl](https://github.com/NVIDIA/nccl) <img src="https://img.shields.io/github/stars/NVIDIA/nccl?style=social"/> : Optimized primitives for collective multi-GPU communication.
 
         - [NVIDIA/multi-gpu-programming-models](https://github.com/NVIDIA/multi-gpu-programming-models) <img src="https://img.shields.io/github/stars/NVIDIA/multi-gpu-programming-models?style=social"/> : Examples demonstrating available options to program multiple GPUs in a single node or a cluster.
 
         - [wilicc/gpu-burn](https://github.com/wilicc/gpu-burn) <img src="https://img.shields.io/github/stars/wilicc/gpu-burn?style=social"/> : Multi-GPU CUDA stress test.
+
+        - [SCUDA](https://github.com/kevmo314/scuda) <img src="https://img.shields.io/github/stars/kevmo314/scuda?style=social"/> : SCUDA: GPU-over-IP. SCUDA is a GPU over IP bridge allowing GPUs on remote machines to be attached to CPU-only machines.
+
 
 
 
@@ -1125,7 +1138,10 @@
         - [2024-09-10，不依赖CUDA的大模型推理已经实现](https://mp.weixin.qq.com/s/TrzwSBQ301Grcpye9-pt1Q)
     - 微信公众号「先进编译实验室」
         - [2025-01-04，探索 Triton 编程密码：语法与实践指南大揭秘](https://mp.weixin.qq.com/s/e2iZNBdiBPRmF_8GrLCKfw)
+        - [2025-01-06，深入Triton源码：揭开AI加速引擎的神秘面纱！](https://mp.weixin.qq.com/s/tSQecwSrpfJVVxD4_4blWQ)
 
+    - [知乎「Soaring」](https://www.zhihu.com/people/soaring-52-57)
+        - [2024-05-14，OpenAI Triton 入门](https://zhuanlan.zhihu.com/p/697626885)
 
 
   - ### TVM Blogs
