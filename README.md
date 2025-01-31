@@ -1,7 +1,7 @@
 # Awesome-CUDA-Triton-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+🔥🔥🔥 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
@@ -81,6 +81,8 @@
 
   - [MLIR](https://mlir.llvm.org/) : Multi-Level Intermediate Representation Compiler Framework. The MLIR project is a novel approach to building reusable and extensible compiler infrastructure. MLIR aims to address software fragmentation, improve compilation for heterogeneous hardware, significantly reduce the cost of building domain specific compilers, and aid in connecting existing compilers together.
 
+  - [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) : PTX, a low-level parallel thread execution virtual machine and instruction set architecture (ISA).
+
 
 
 ## Awesome List
@@ -115,6 +117,8 @@
     - [NVIDIA CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) : CUDA C++ Programming Guide.
 
     - [NVIDIA CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html) : CUDA C++ Best Practices Guide.
+
+    - [NVIDIA PTX(Parallel Thread Execution) Programming Guide](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) : NVIDIA PTX (Parallel Thread Execution) Programming Guide.
 
     - [NVIDIA/cuda-samples](https://github.com/NVIDIA/cuda-samples) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-samples?style=social"/> : Samples for CUDA Developers which demonstrates features in CUDA Toolkit.
 
