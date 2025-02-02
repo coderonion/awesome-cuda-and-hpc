@@ -144,8 +144,6 @@
 
     - [MAhaitao999/CUDA_Programming](https://github.com/MAhaitao999/CUDA_Programming) <img src="https://img.shields.io/github/stars/MAhaitao999/CUDA_Programming?style=social"/> : 《CUDA编程基础与实践》一书的代码。
 
-    - [sangyc10/CUDA-code](https://github.com/sangyc10/CUDA-code) <img src="https://img.shields.io/github/stars/sangyc10/CUDA-code?style=social"/> : bilibili视频【CUDA编程基础入门系列（持续更新）】配套代码。
-
     - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
 
     - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 🎉CUDA/C++ 笔记 / 大模型手撕CUDA / 技术博客，更新随缘: flash_attn、sgemm、sgemv、warp reduce、block reduce、dot product、elementwise、softmax、layernorm、rmsnorm、hist etc.
@@ -155,6 +153,8 @@
     - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
 
     - [ifromeast/cuda_learning](https://github.com/ifromeast/cuda_learning) <img src="https://img.shields.io/github/stars/ifromeast/cuda_learning?style=social"/> : learning how CUDA works.
+
+    - [Tongkaio/CUDA_Kernel_Samples](https://github.com/Tongkaio/CUDA_Kernel_Samples) <img src="https://img.shields.io/github/stars/Tongkaio/CUDA_Kernel_Samples?style=social"/> : CUDA 算子手撕与面试指南。
 
     - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/). This repository contains the CUDA kernels for general matrix-matrix multiplication (GEMM) and the corresponding performance analysis.
 
@@ -1225,6 +1225,8 @@
 
 
 ## Interview
+
+  - [Tongkaio/CUDA_Kernel_Samples](https://github.com/Tongkaio/CUDA_Kernel_Samples) <img src="https://img.shields.io/github/stars/Tongkaio/CUDA_Kernel_Samples?style=social"/> : CUDA 算子手撕与面试指南。
 
   - 微信公众号「大模型生态圈」
     - [2024-04-21，推理部署工程师面试题库](https://mp.weixin.qq.com/s/q46vKFPlQhcN7LyZNTRhXA)
