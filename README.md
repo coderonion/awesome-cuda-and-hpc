@@ -154,6 +154,8 @@
 
     - [ifromeast/cuda_learning](https://github.com/ifromeast/cuda_learning) <img src="https://img.shields.io/github/stars/ifromeast/cuda_learning?style=social"/> : learning how CUDA works.
 
+    - [a-hamdi/cuda](https://github.com/a-hamdi/cuda) <img src="https://img.shields.io/github/stars/a-hamdi/cuda?style=social"/> : 100 days of building Cuda kernels! This document serves as a log of the progress and knowledge I gained while working on CUDA programming and studying the PMPP (Parallel Programming and Optimization) book. Mentor: [https://github.com/hkproj/](https://github.com/hkproj/). Bro in the 100 days challenge: [https://github.com/1y33/100Days](https://github.com/1y33/100Days).
+
     - [Tongkaio/CUDA_Kernel_Samples](https://github.com/Tongkaio/CUDA_Kernel_Samples) <img src="https://img.shields.io/github/stars/Tongkaio/CUDA_Kernel_Samples?style=social"/> : CUDA 算子手撕与面试指南。
 
     - [leimao/CUDA-GEMM-Optimization](https://github.com/leimao/CUDA-GEMM-Optimization) <img src="https://img.shields.io/github/stars/leimao/CUDA-GEMM-Optimization?style=social"/> : [CUDA Matrix Multiplication Optimization](https://leimao.github.io/article/CUDA-Matrix-Multiplication-Optimization/). This repository contains the CUDA kernels for general matrix-matrix multiplication (GEMM) and the corresponding performance analysis.
@@ -1102,8 +1104,8 @@
         - [2024-02-18，《高性能并行编程与优化》课程笔记目录](https://zhuanlan.zhihu.com/p/671684145)
 
 
-
-
+    - [Medium Blog](https://medium.com/)
+        - [2024-05-15，Recreating PyTorch from Scratch (with GPU Support and Automatic Differentiation)](https://medium.com/towards-data-science/recreating-pytorch-from-scratch-with-gpu-support-and-automatic-differentiation-8f565122a3cc)
 
 
 
