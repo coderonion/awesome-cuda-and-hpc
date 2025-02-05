@@ -49,7 +49,7 @@
         - [Image Preprocess](#image-preprocess)
         - [Object Detection](#object-detection)
   - [Blogs](#blogs)
-    - [CUDA Blogs](#cuda-blogs)
+    - [CUDA and TensorRT Blogs](#cuda-and-tensorrt-blogs)
     - [Triton Blogs](#triton-blogs)
     - [TVM Blogs](#tvm-blogs)
     - [MLIR Blogs](#mlir-blogs)
@@ -469,8 +469,6 @@
 
         - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
 
-        - [zjhellofss/kuiperdatawhale](https://github.com/zjhellofss/kuiperdatawhale) <img src="https://img.shields.io/github/stars/zjhellofss/kuiperdatawhale?style=social"/> :  从零自制深度学习推理框架。
-
         - [MarioSieg/magnetron](https://github.com/MarioSieg/magnetron) <img src="https://img.shields.io/github/stars/MarioSieg/magnetron?style=social"/> :  (WIP) A small but powerful, homemade PyTorch from scratch. Minimalistic homemade PyTorch alternative, written in C99 and Python.
 
         - [lucasdelimanogueira/PyNorch](https://github.com/lucasdelimanogueira/PyNorch) <img src="https://img.shields.io/github/stars/lucasdelimanogueira/PyNorch?style=social"/> :  Recreating PyTorch from scratch (C/C++, CUDA, NCCL and Python, with multi-GPU support and automatic differentiation!)
@@ -484,6 +482,8 @@
             - [TensorRT](https://github.com/NVIDIA/TensorRT) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social"/> : NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT. [developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
 
             - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
+
+            - [Ollama](https://github.com/ollama/ollama) <img src="https://img.shields.io/github/stars/ollama/ollama?style=social"/> : Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models. [ollama.com](https://ollama.com/)
 
             - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
@@ -871,7 +871,7 @@
 
 ## Blogs
 
-  - ### CUDA Blogs
+  - ### CUDA and TensorRT Blogs
 
     - 微信公众号「NVIDIA英伟达」
         - [2023-10-27，现已公开发布！欢迎使用 NVIDIA TensorRT-LLM 优化大语言模型推理](https://mp.weixin.qq.com/s/QaSbvyAmI6XXtr0y6W4LNQ)
@@ -891,6 +891,7 @@
         - [2024-05-10，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(上篇)](https://mp.weixin.qq.com/s/YASkRa12Ecr6fLtupP1WHg)
         - [2024-05-16，全面探究GPU SM内CUDA core-Tensor core能否同时计算？(下篇)](https://mp.weixin.qq.com/s/Jcu_HkAMiMXYagBjNhSCZQ)
         - [2024-10-09，深入解读tensorRT-LLM的关键技术 (未完待续)](https://mp.weixin.qq.com/s/2l5Ko2Q-iNOL3PpwpUdArw)
+        - [2025-01-20，深入解析cutlass的诞生历程、特性和对友商的各大优势](https://mp.weixin.qq.com/s/-dHq2DOzsEiJQe1LvsRxrQ)
     - 微信公众号「澎峰科技PerfXLab」
         - [2022-10-18，深入浅出GPU优化系列：reduce优化](https://mp.weixin.qq.com/s/tNDRd18Ol56U-spoinzttg)
         - [2022-10-31，深入浅出GPU优化系列：spmv优化](https://mp.weixin.qq.com/s/JIqUbPFtYc3fs_cvKi1r3A)
@@ -1015,7 +1016,6 @@
         - [2024-04-19，AI 推理：CPU 的崛起](https://mp.weixin.qq.com/s/rpdCT1fj2E3GKknfygAWRw)
     - 微信公众号「DeepDriving」
         - [2023-07-21，AI模型部署 | TensorRT模型INT8量化的Python实现](https://mp.weixin.qq.com/s/IQTCUs8CcfgHxJCyV6cm3w)
-
     - 微信公众号「人工智能大讲堂」
         - [2024-05-11，我找到了AlexNet当年的源代码，没用框架，从零手撸CUDA/C++](https://mp.weixin.qq.com/s/plxXG8y5QlxSionyjyPXqw)
     - 微信公众号「未来科技潮」
@@ -1027,6 +1027,7 @@
         - [2024-04-09，100行C代码重塑深度学习：用纯C/CUDA打造的极简LLM训练](https://mp.weixin.qq.com/s/Th3RX3_FS5git0qJEcu4ZA)
     - 微信公众号「小白学视觉」
         - [2024-03-29，图像预处理库CV-CUDA开源了，打破预处理瓶颈，提升推理吞吐量20多倍](https://mp.weixin.qq.com/s/Zn4yI1xu2TuXZkJCzQt_yA)
+        - [2025-01-24，算法岗平时需要自己写cuda吗？](https://mp.weixin.qq.com/s/L_SoagU1V0lZA75-7qef3A)
     - 微信公众号「卡巴斯」
         - [2024-02-26，GPU（一）GPU简介](https://mp.weixin.qq.com/s/V4mMjzQ261kk6qmyH-STUQ)
     - 微信公众号「码砖杂役」
@@ -1077,6 +1078,7 @@
         - [2024-07-31，搭载英伟达Jetson Orin的Allspark 2全新亮相，算力高达100TOPS！](https://mp.weixin.qq.com/s/hjU3eH1LAvxVsOHWZXFAyQ)
     - 微信公众号「吃果冻不吐果冻皮」
         - [2024-08-09，如何把 PyTorch 的 GPU 利用率提升到 100% ?](https://mp.weixin.qq.com/s/9HSZppiFjypwu-TttbxqMQ)
+        - [2024-08-26，基于 NVIDIA TensorRT-LLM 的大语言模型调度方法](https://mp.weixin.qq.com/s/nDSYDsmAtozmHNzLsx4KzQ)
     - 微信公众号「AI大模型实验室」
         - [2024-03-19，Nvidia推出Blackwell B200 GPU，是目前最强的人工智能芯片](https://mp.weixin.qq.com/s/SPgz7q_Ycr2lNxeH0WoNEQ)
     - 微信公众号「科技最前线」
@@ -1085,6 +1087,13 @@
         - [2024-03-20，NVIDIA 与 Blackwell 一起改写摩尔定律](https://mp.weixin.qq.com/s/3ffnbFdnXV7lQylzo_3o9w)
     - 微信公众号「DataFunTalk」
         - [2024-03-15，NVIDIA大语言模型落地的全流程解析](https://mp.weixin.qq.com/s/mhGcW8FqLigBeePlRZGBDg)
+    - 微信公众号「先进编译实验室」
+        - [2025-01-20，玩转GPU加速：CUDA编程优化之旅开启](https://mp.weixin.qq.com/s/tke62pNpdM1AW4VPt8MHlg)
+        - [2025-02-04，CUDA优化秘籍：解锁内存性能的四大关键](https://mp.weixin.qq.com/s/fI7mBYM6SrexCgZRjoccCw)
+    - 微信公众号「讳疾忌医-note」
+        - [2024-12-21，国外深度学习工程师分享：从零开始重现 PyTorch（支持 GPU）超详细](https://mp.weixin.qq.com/s/FAfADW1jPt40RFxwyfCGJQ)
+    - 微信公众号「DeepHub IMBA」
+        - [2023-10-22，使用TensorRT-LLM进行高性能推理](https://mp.weixin.qq.com/s/pIZ9ceJzTG8kMZMn1m5oQw)
 
 
     - [知乎「紫气东来」](https://www.zhihu.com/people/zi-qi-dong-lai-1)
@@ -1120,6 +1129,9 @@
         - [2024-12-04，Triton中国社区贡献者茶话会圆满落地](https://mp.weixin.qq.com/s/vtSMaGgp_Uxo_QvmmV7sjg)
         - [2024-12-10，Triton入门实践 | 算子性能优化：自动调优的艺术](https://mp.weixin.qq.com/s/txtyci4MUCVNpTZwF6fS4Q)
         - [2024-12-19，智源大模型通用算子库FlagGems四大能力升级，为AI系统开源生态注入新活力](https://mp.weixin.qq.com/s/2X5DyY1MbYhz6zVusPpKww)
+        - [2025-01-13，Triton生态 | 突破CUDA束缚，拥抱开放与多元的未来](https://mp.weixin.qq.com/s/IX3kalsNUcXJ_JgDWKJ1iQ)
+    - 微信公众号「PyTorch」
+        - [2025-01-24，Triton加速2D动态块量化Float8 GEMM](https://mp.weixin.qq.com/s/jixXXEBId9PHhK40L77bEQ)
     - 微信公众号「摩尔线程」
         - [2024-07-18，摩尔线程 × 智源研究院｜完成基于Triton的大模型算子库适配](https://mp.weixin.qq.com/s/84LKQ4Xo1RSdNoFJG0tUmg)
         - [2024-11-05，开源vLLM-MUSA｜摩尔线程持续加速基于国产GPU的AI大模型推理开发](https://mp.weixin.qq.com/s/5YLCXLlkbZ9WwoaiSIFJhA)
