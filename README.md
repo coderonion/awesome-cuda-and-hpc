@@ -27,6 +27,7 @@
         - [Machine Learning Framework](#machine-learning-framework)
         - [AI Inference Framework](#ai-inference-framework)
             - [LLM Inference and Serving Engine](#llm-inference-and-serving-engine)
+            - [High Performance Kernel Library](#high-performance-kernel-library)
             - [C Implementation](#c-implementation)
             - [CPP Implementation](#cpp-implementation)
             - [Mojo Implementation](#mojo-implementation)
@@ -38,7 +39,7 @@
         - [ZKP and Web3 Framework](#zkp-and-web3-framework)
     - [Triton Frameworks](#triton-frameworks)
         - [Triton Machine Learning Framework](#triton-machine-learning-framework)
-        - [Triton LLM Operator Library](#triton-llm-operator-library)
+        - [Triton High Performance Kernel Library](#triton-high-performance-kernel-library)
     - [MLIR Frameworks](#mlir-frameworks)
         - [MLIR GPU Programming](#mlir-gpu-programming)
         - [MLIR FFI Bindings](#mlir-ffi-bindings)
@@ -146,7 +147,7 @@
 
     - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
 
-    - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 🎉CUDA/C++ 笔记 / 大模型手撕CUDA / 技术博客，更新随缘: flash_attn、sgemm、sgemv、warp reduce、block reduce、dot product、elementwise、softmax、layernorm、rmsnorm、hist etc.
+    - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 📚200+ Tensor/CUDA Cores Kernels, ⚡️flash-attn-mma, ⚡️hgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 🎉🎉).
 
     - [BBuf/how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda) <img src="https://img.shields.io/github/stars/BBuf/how-to-optim-algorithm-in-cuda?style=social"/> : how to optimize some algorithm in cuda.
 
@@ -155,6 +156,8 @@
     - [ifromeast/cuda_learning](https://github.com/ifromeast/cuda_learning) <img src="https://img.shields.io/github/stars/ifromeast/cuda_learning?style=social"/> : learning how CUDA works.
 
     - [a-hamdi/cuda](https://github.com/a-hamdi/cuda) <img src="https://img.shields.io/github/stars/a-hamdi/cuda?style=social"/> : 100 days of building Cuda kernels! This document serves as a log of the progress and knowledge I gained while working on CUDA programming and studying the PMPP (Parallel Programming and Optimization) book. Mentor: [https://github.com/hkproj/](https://github.com/hkproj/). Bro in the 100 days challenge: [https://github.com/1y33/100Days](https://github.com/1y33/100Days).
+
+    - [SwekeR-463/100kernels](https://github.com/SwekeR-463/100kernels) <img src="https://img.shields.io/github/stars/SwekeR-463/100kernels?style=social"/> : 100 days of learning & making kernels in cuda / triton.
 
     - [Tongkaio/CUDA_Kernel_Samples](https://github.com/Tongkaio/CUDA_Kernel_Samples) <img src="https://img.shields.io/github/stars/Tongkaio/CUDA_Kernel_Samples?style=social"/> : CUDA 算子手撕与面试指南。
 
@@ -438,6 +441,8 @@
 
         - [FlashAttention](https://github.com/Dao-AILab/flash-attention) <img src="https://img.shields.io/github/stars/Dao-AILab/flash-attention?style=social"/> : Fast and memory-efficient exact attention. "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness". (**[arXiv 2022](https://arxiv.org/abs/2205.14135)**).
 
+        - [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) <img src="https://img.shields.io/github/stars/fla-org/flash-linear-attention?style=social"/> : 🚀 Efficient implementations of state-of-the-art linear attention models in Pytorch and Triton.
+
         - [66RING/tiny-flash-attention](https://github.com/66RING/tiny-flash-attention) <img src="https://img.shields.io/github/stars/66RING/tiny-flash-attention?style=social"/> : [flash attention](https://github.com/Dao-AILab/flash-attention) tutorial written in python, triton, cuda, cutlass.
 
         - [weishengying/tiny-flash-attention](https://github.com/weishengying/tiny-flash-attention) <img src="https://img.shields.io/github/stars/weishengying/tiny-flash-attention?style=social"/> : 使用 cutlass 实现 flash-attention 精简版，具有教学意义。
@@ -477,6 +482,10 @@
     - #### AI Inference Framework
       ##### AI推理框架
 
+
+
+
+
         - ##### LLM Inference and Serving Engine
 
             - [TensorRT](https://github.com/NVIDIA/TensorRT) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT?style=social"/> : NVIDIA® TensorRT™ is an SDK for high-performance deep learning inference on NVIDIA GPUs. This repository contains the open source components of TensorRT. [developer.nvidia.com/tensorrt](https://developer.nvidia.com/tensorrt)
@@ -487,13 +496,28 @@
 
             - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
-            - [MLC LLM](https://github.com/mlc-ai/mlc-llm) <img src="https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social"/> : Enable everyone to develop, optimize and deploy AI models natively on everyone's devices. [mlc.ai/mlc-llm](https://mlc.ai/mlc-llm/)
+            - [MLC LLM](https://github.com/mlc-ai/mlc-llm) <img src="https://img.shields.io/github/stars/mlc-ai/mlc-llm?style=social"/> : Universal LLM Deployment Engine with ML Compilation. [llm.mlc.ai/](https://llm.mlc.ai/)
 
-            - [Lamini](https://github.com/lamini-ai/lamini) <img src="https://img.shields.io/github/stars/lamini-ai/lamini?style=social"/> : Lamini: The LLM engine for rapidly customizing models 🦙.
+            - [KTransformers](https://github.com/kvcache-ai/ktransformers) <img src="https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=social"/> : A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations. [kvcache-ai.github.io/ktransformers/](https://kvcache-ai.github.io/ktransformers/)
+
+            - [GPUStack](https://github.com/gpustack/gpustack) <img src="https://img.shields.io/github/stars/gpustack/gpustack?style=social"/> : GPUStack is an open-source GPU cluster manager for running AI models. Manage GPU clusters for running AI models. [gpustack.ai](https://gpustack.ai/)
+
+
+            - [Lamini](https://github.com/lamini-ai/lamini) <img src="https://img.shields.io/github/stars/lamini-ai/lamini?style=social"/> : The Official Python Client for Lamini's API. [lamini.ai/](https://lamini.ai/)
 
             - [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) <img src="https://img.shields.io/github/stars/datawhalechina/self-llm?style=social"/> :  《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程。
 
             - [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) <img src="https://img.shields.io/github/stars/ninehills/llm-inference-benchmark?style=social"/> : LLM Inference benchmark.
+
+            - [csbench/csbench](https://github.com/csbench/csbench) <img src="https://img.shields.io/github/stars/csbench/csbench?style=social"/> : "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery". (**[arXiv 2024](https://arxiv.org/abs/2406.08587)**).
+
+
+        - ##### High Performance Kernel Library
+
+            - [FlashInfer](https://github.com/flashinfer-ai/flashinfer) <img src="https://img.shields.io/github/stars/flashinfer-ai/flashinfer?style=social"/> : FlashInfer: Kernel Library for LLM Serving . [flashinfer.ai](flashinfer.ai)
+
+
+
 
 
         - ##### C Implementation
@@ -688,7 +712,8 @@
         - [BobMcDear/attorch](https://github.com/BobMcDear/attorch) <img src="https://img.shields.io/github/stars/BobMcDear/attorch?style=social"/> : A subset of PyTorch's neural network modules, written in Python using OpenAI's Triton.
 
 
-    - #### Triton LLM Operator Library
+
+    - #### Triton High Performance Kernel Library
 
         - [Liger-Kernel](https://github.com/linkedin/Liger-Kernel) <img src="https://img.shields.io/github/stars/linkedin/Liger-Kernel?style=social"/> : Efficient Triton Kernels for LLM Training. [arxiv.org/pdf/2410.10989](https://arxiv.org/pdf/2410.10989)
 
