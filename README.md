@@ -492,6 +492,8 @@
 
             - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
 
+            - [NVIDIA/TensorRT-Model-Optimizer](https://github.com/NVIDIA/TensorRT-Model-Optimizer) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-Model-Optimizer?style=social"/> : TensorRT Model Optimizer is a unified library of state-of-the-art model optimization techniques such as quantization, pruning, distillation, etc. It compresses deep learning models for downstream deployment frameworks like TensorRT-LLM or TensorRT to optimize inference speed on NVIDIA GPUs. [nvidia.github.io/TensorRT-Model-Optimizer](https://nvidia.github.io/TensorRT-Model-Optimizer/)
+
             - [Ollama](https://github.com/ollama/ollama) <img src="https://img.shields.io/github/stars/ollama/ollama?style=social"/> : Get up and running with Llama 3.3, DeepSeek-R1, Phi-4, Gemma 2, and other large language models. [ollama.com](https://ollama.com/)
 
             - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
@@ -510,6 +512,7 @@
             - [ninehills/llm-inference-benchmark](https://github.com/ninehills/llm-inference-benchmark) <img src="https://img.shields.io/github/stars/ninehills/llm-inference-benchmark?style=social"/> : LLM Inference benchmark.
 
             - [csbench/csbench](https://github.com/csbench/csbench) <img src="https://img.shields.io/github/stars/csbench/csbench?style=social"/> : "CS-Bench: A Comprehensive Benchmark for Large Language Models towards Computer Science Mastery". (**[arXiv 2024](https://arxiv.org/abs/2406.08587)**).
+
 
 
         - ##### High Performance Kernel Library
