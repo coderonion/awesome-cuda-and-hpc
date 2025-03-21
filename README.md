@@ -88,7 +88,7 @@
 
 ## Awesome List
 
-  - [awesome-cuda-triton-hpc](https://github.com/coderonion/awesome-cuda-triton-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-triton-hpc?style=social"/> : some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM/), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/) and High Performance Computing (HPC) projects.
+  - [awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-and-hpc?style=social"/> : some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
