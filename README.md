@@ -1,10 +1,10 @@
-# Awesome-CUDA-Triton-HPC
+# Awesome-CUDA-and-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
+🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
 ## Contents
-- [Awesome-CUDA-Triton-HPC](#awesome-cuda-triton-hpc)
+- [Awesome-CUDA-and-HPC](#awesome-cuda-and-hpc)
   - [Official Version](#official-version)
   - [Awesome List](#awesome-list)
   - [Learning Resources](#learning-resources)
@@ -62,7 +62,7 @@
 
   - [CUDA](https://developer.nvidia.com/cuda-zone) : CUDA is a parallel computing platform and programming model developed by NVIDIA for general computing on graphical processing units (GPUs).
 
-  - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python is the home for accessing NVIDIA’s CUDA platform from Python. CUDA Python Low-level Bindings. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/latest/)
+  - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python: Performance meets Productivity. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/)
 
   - [cuBLAS](https://developer.nvidia.com/cublas) : Basic Linear Algebra on NVIDIA GPUs. NVIDIA cuBLAS is a GPU-accelerated library for accelerating AI and HPC applications. It includes several API extensions for providing drop-in industry standard BLAS APIs and GEMM APIs with support for fusions that are highly optimized for NVIDIA GPUs. The cuBLAS library also contains extensions for batched operations, execution across multiple GPUs, and mixed- and low-precision execution with additional tuning for the best performance.
 
@@ -506,7 +506,7 @@
 
             - [KTransformers](https://github.com/kvcache-ai/ktransformers) <img src="https://img.shields.io/github/stars/kvcache-ai/ktransformers?style=social"/> : A Flexible Framework for Experiencing Cutting-edge LLM Inference Optimizations. [kvcache-ai.github.io/ktransformers/](https://kvcache-ai.github.io/ktransformers/)
 
-            - [Chitu](https://github.com/thu-pacman/chitu) <img src="https://img.shields.io/github/stars/thu-pacman/chitu?style=social"/> : High-performance inference framework for large language models, focusing on efficiency, flexibility, and availability.
+            - [Chitu（赤兔）](https://github.com/thu-pacman/chitu) <img src="https://img.shields.io/github/stars/thu-pacman/chitu?style=social"/> : High-performance inference framework for large language models, focusing on efficiency, flexibility, and availability.
 
             - [GPUStack](https://github.com/gpustack/gpustack) <img src="https://img.shields.io/github/stars/gpustack/gpustack?style=social"/> : GPUStack is an open-source GPU cluster manager for running AI models. Manage GPU clusters for running AI models. [gpustack.ai](https://gpustack.ai/)
 
@@ -524,11 +524,11 @@
 
         - ##### High Performance Kernel Library
 
+            - [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) <img src="https://img.shields.io/github/stars/deepseek-ai/DeepGEMM?style=social"/> : DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling.
+
             - [FlashInfer](https://github.com/flashinfer-ai/flashinfer) <img src="https://img.shields.io/github/stars/flashinfer-ai/flashinfer?style=social"/> : FlashInfer: Kernel Library for LLM Serving . [flashinfer.ai](flashinfer.ai)
 
             - [FlashMLA](https://github.com/deepseek-ai/FlashMLA) <img src="https://img.shields.io/github/stars/deepseek-ai/FlashMLA?style=social"/> : FlashMLA: Efficient MLA Decoding Kernel for Hopper GPUs.
-
-            - [DeepGEMM](https://github.com/deepseek-ai/DeepGEMM) <img src="https://img.shields.io/github/stars/deepseek-ai/DeepGEMM?style=social"/> : DeepGEMM: clean and efficient FP8 GEMM kernels with fine-grained scaling.
 
             - [DeepEP](https://github.com/deepseek-ai/DeepEP) <img src="https://img.shields.io/github/stars/deepseek-ai/DeepEP?style=social"/> : DeepEP: an efficient expert-parallel communication library.
 
