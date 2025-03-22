@@ -125,17 +125,13 @@
 
     - [NVIDIA/CUDALibrarySamples](https://github.com/NVIDIA/CUDALibrarySamples) <img src="https://img.shields.io/github/stars/NVIDIA/CUDALibrarySamples?style=social"/> : CUDA Library Samples.
 
-    - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python is the home for accessing NVIDIA’s CUDA platform from Python. CUDA Python Low-level Bindings. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/latest/)
+    - [NVIDIA/cuda-python](https://github.com/NVIDIA/cuda-python) <img src="https://img.shields.io/github/stars/NVIDIA/cuda-python?style=social"/> : CUDA Python: Performance meets Productivity. [nvidia.github.io/cuda-python/](https://nvidia.github.io/cuda-python/)
 
     - [CuPy](https://github.com/cupy/cupy) <img src="https://img.shields.io/github/stars/cupy/cupy?style=social"/> : CuPy : NumPy & SciPy for GPU. [cupy.dev](https://cupy.dev/). [CuPy User Guide](https://docs.cupy.dev/en/stable/user_guide/)
 
     - [NVIDIA-developer-blog/code-samples](https://github.com/NVIDIA-developer-blog/code-samples) <img src="https://img.shields.io/github/stars/NVIDIA-developer-blog/code-samples?style=social"/> : Source code examples from the [Parallel Forall Blog](http://developer.nvidia.com/parallel-forall).
 
     - [HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese](https://github.com/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese) <img src="https://img.shields.io/github/stars/HeKun-NVIDIA/CUDA-Programming-Guide-in-Chinese?style=social"/> : This is a Chinese translation of the CUDA programming guide. 本项目为 CUDA C Programming Guide 的中文翻译版。
-
-    - [cuda-mode/lectures](https://github.com/cuda-mode/lectures) <img src="https://img.shields.io/github/stars/cuda-mode/lectures?style=social"/> : Material for cuda-mode lectures.
-
-    - [cuda-mode/resource-stream](https://github.com/cuda-mode/resource-stream) <img src="https://img.shields.io/github/stars/cuda-mode/resource-stream?style=social"/> : CUDA related news and material links.
 
     - [brucefan1983/CUDA-Programming](https://github.com/brucefan1983/CUDA-Programming) <img src="https://img.shields.io/github/stars/brucefan1983/CUDA-Programming?style=social"/> : Sample codes for my CUDA programming book.
 
@@ -145,13 +141,21 @@
 
     - [MAhaitao999/CUDA_Programming](https://github.com/MAhaitao999/CUDA_Programming) <img src="https://img.shields.io/github/stars/MAhaitao999/CUDA_Programming?style=social"/> : 《CUDA编程基础与实践》一书的代码。
 
-    - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
-
     - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 📚200+ Tensor/CUDA Cores Kernels, ⚡️flash-attn-mma, ⚡️hgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 🎉🎉).
 
     - [BBuf/how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda) <img src="https://img.shields.io/github/stars/BBuf/how-to-optim-algorithm-in-cuda?style=social"/> : how to optimize some algorithm in cuda.
 
+    - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
+
     - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
+
+    - [bertmaher/simplegemm](https://github.com/bertmaher/simplegemm) <img src="https://img.shields.io/github/stars/bertmaher/simplegemm?style=social"/> : Pingpong GEMM from scratch. I've been really excited to learn the lowest-level details of GPU matrix multiplication recently, so I was really inspired to read Pranjal Shankhdhar's fantastic blog post [Outperforming cuBLAS on H100](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog), which implements a fast gemm from first principles in CUDA, and actually outperforms cuBLAS. In a similar vein, I wanted to understand the [pingpong](https://github.com/NVIDIA/cutlass/blob/main/media/docs/efficient_gemm.md#hopper-warp-specialization) gemm algorithm in detail. So, I used [https://github.com/pranjalssh/fast.cu](https://github.com/pranjalssh/fast.cu) as a starting point, and wrote this kernel to see if I could match CUTLASS's pingpong implementation myself, using hand-written CUDA.
+
+    - [pranjalssh/fast.cu](https://github.com/pranjalssh/fast.cu) <img src="https://img.shields.io/github/stars/pranjalssh/fast.cu?style=social"/> : Fastest GPU kernels, written from scratch. Matrix multiplication of square bf16 matrices, accumulated in fp32. Explanation in [https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog)
+
+    - [gpu-mode/lectures](https://github.com/gpu-mode/lectures) <img src="https://img.shields.io/github/stars/gpu-mode/lectures?style=social"/> : Material for gpu-mode lectures. [www.youtube.com/@GPUMODE](https://www.youtube.com/@GPUMODE)
+
+    - [gpu-mode/resource-stream](https://github.com/gpu-mode/resource-stream) <img src="https://img.shields.io/github/stars/cuda-mode/resource-stream?style=social"/> :GPU programming related news and material links. [discord.gg/gpumode](https://discord.gg/gpumode)
 
     - [ifromeast/cuda_learning](https://github.com/ifromeast/cuda_learning) <img src="https://img.shields.io/github/stars/ifromeast/cuda_learning?style=social"/> : learning how CUDA works.
 
