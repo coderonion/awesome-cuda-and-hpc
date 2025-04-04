@@ -524,6 +524,9 @@
 
             - [MooreThreads/vllm_musa](https://github.com/MooreThreads/vllm_musa) <img src="https://img.shields.io/github/stars/MooreThreads/vllm_musa?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
+            - [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) <img src="https://img.shields.io/github/stars/dusty-nv/jetson-inference?style=social"/> : Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
+
+
 
 
         - ##### High Performance Kernel Library
