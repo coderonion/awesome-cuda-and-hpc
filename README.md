@@ -813,6 +813,8 @@
 
     - #### Image Preprocess
 
+        - [dusty-nv/jetson-utils](https://github.com/dusty-nv/jetson-utils) <img src="https://img.shields.io/github/stars/dusty-nv/jetson-utils?style=social"/> : C++/CUDA/Python multimedia utilities for NVIDIA Jetson.
+
         - [emptysoal/cuda-image-preprocess](https://github.com/emptysoal/cuda-image-preprocess) <img src="https://img.shields.io/github/stars/emptysoal/cuda-image-preprocess?style=social"/> : Speed up image preprocess with cuda when handle image or tensorrt inference. Cuda编程加速图像预处理。
 
 
@@ -995,6 +997,7 @@
         - [2024-10-08，NVIDIA Jetson平台助力Instacart，实现超市智能购物无缝体验](https://mp.weixin.qq.com/s/Q9x83ts0boNoQHZhSIpgUw)
         - [2024-11-28，TensorRT-LLM：开启Jetson平台上大语言模型推理的新篇章](https://mp.weixin.qq.com/s/FGg1s__LORE6SOzI_VsJYw)
         - [2024-11-29，在 Nvidia Jetson AGX Orin 上使用 TensorRT-LLM 运行 LLM](https://mp.weixin.qq.com/s/PhrusT3NisyhxtsO7G5U1g)
+        - [2025-04-07，CUDA编程革命：cuTile分块计算赋能高效GPU开发](https://mp.weixin.qq.com/s/YfxJkAzr_5FRuY828Pv9kg)
     - 微信公众号「机器学习研究组订阅」
         - [2017-12-07，【推荐】CUTLASS：CUDA C++高性能线性代数运算库](https://mp.weixin.qq.com/s/EDmbQ4y3nnkYiHhl3HG_HA)
     - 微信公众号「自动驾驶之心」
@@ -1045,6 +1048,7 @@
         - [2024-01-24，【CUDA编程】基于 CUDA 的 Kmeans 算法的进阶实现（二）](https://mp.weixin.qq.com/s/xPN5cupqt4B-JrX6KUNJrw)
         - [2024-04-08，【CUDA编程】CUDA 统一内存](https://mp.weixin.qq.com/s/DynVo_Mu7pUQxRLHH3ii9Q)
         - [2024-08-06，【CUDA编程】cuBLAS 库中矩阵乘法参数设置问题](https://mp.weixin.qq.com/s/MvTaIBfVW3gcwQtV2VjMTw)
+        - [2025-04-08，【CUDA编程】Flash Attention CUDA 算子的实现思路](https://mp.weixin.qq.com/s/ReVeJ9fNlWeyfP8CMLolkg)
     - 微信公众号「江大白」
         - [2023-09-06，GPU底层优化，如何让Transformer在GPU上跑得更快？](https://mp.weixin.qq.com/s/Xdbkld6ZrJ7Q93PEOedBMA)
         - [2024-04-12，深入浅出，PyTorch模型int8量化原理拆解](https://mp.weixin.qq.com/s/j2QS3LdudrrlyZYQkVrl5Q)
