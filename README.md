@@ -1145,6 +1145,20 @@
         - [2024-12-21，国外深度学习工程师分享：从零开始重现 PyTorch（支持 GPU）超详细](https://mp.weixin.qq.com/s/FAfADW1jPt40RFxwyfCGJQ)
     - 微信公众号「DeepHub IMBA」
         - [2023-10-22，使用TensorRT-LLM进行高性能推理](https://mp.weixin.qq.com/s/pIZ9ceJzTG8kMZMn1m5oQw)
+    - 微信公众号「zarbot」
+        - [2024-07-25，Tensor-001 矩阵乘法分块乘法概述](https://mp.weixin.qq.com/s/61CzHIZcX6DSUBcjbgr2eQ)
+        - [2024-07-25，Tensor-002 矩阵乘法优化](https://mp.weixin.qq.com/s/tpzBq_rZdZt3whqw0txCDQ)
+        - [2024-08-03，Tensor-003 TensorCore架构](https://mp.weixin.qq.com/s/xdC8SlMQb7O0S3E5VXXpRQ)
+        - [2024-08-10，Tensor-004 TensorCore编程及优化](https://mp.weixin.qq.com/s/eB6nbPpVwPqLyo9YMiw93w)
+        - [2024-08-20，Tensor-005 CUTLASS简介](https://mp.weixin.qq.com/s/LaK8jucDgrRxPlDMq-aTvw)
+        - [2024-08-22，Tensor-006 AI软硬件交互界面: 可组合的Kernel](https://mp.weixin.qq.com/s/JA8wCZFAlkTVwfW8tmke9w)
+        - [2024-08-24，Tensor-007 Cute Layout简介](https://mp.weixin.qq.com/s/3uJtWOyhB9PX72ynocjVZg)
+        - [2024-08-29，Tensor-008 CuTe Layout代数](https://mp.weixin.qq.com/s/CWBxDkd1mj0WPmSAUHSHhg)
+        - [2024-09-09，Tensor-009 Cute Tensor](https://mp.weixin.qq.com/s/sd7HY68Z-UZiqlv_PfoayA)
+        - [2024-09-14，Tensor-010 Tensor Copy](https://mp.weixin.qq.com/s/90D7Ro_kkbM1rj4szyeDRw)
+    - 微信公众号「Infra研习社」
+        - [2025-03-24，cuda-python 使用与cuTicle介绍](https://mp.weixin.qq.com/s/Q_fSDMy6FNPqgmAW_kaPUw)
+
 
 
     - [知乎「紫气东来」](https://www.zhihu.com/people/zi-qi-dong-lai-1)
