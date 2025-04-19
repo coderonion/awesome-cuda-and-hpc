@@ -50,6 +50,8 @@
         - [Image Preprocess](#image-preprocess)
         - [Object Detection](#object-detection)
         - [Signal Processing](#signal-processing)
+        - [Mesh Processing](#mesh-processing)
+        - [Graph Analytics](#graph-analytics)
   - [Blogs](#blogs)
     - [CUDA and TensorRT Blogs](#cuda-and-tensorrt-blogs)
     - [Triton Blogs](#triton-blogs)
@@ -141,6 +143,8 @@
     - [QINZHAOYU/CudaSteps](https://github.com/QINZHAOYU/CudaSteps) <img src="https://img.shields.io/github/stars/QINZHAOYU/CudaSteps?style=social"/> : 基于《cuda编程-基础与实践》（樊哲勇 著）的cuda学习之路。
 
     - [MAhaitao999/CUDA_Programming](https://github.com/MAhaitao999/CUDA_Programming) <img src="https://img.shields.io/github/stars/MAhaitao999/CUDA_Programming?style=social"/> : 《CUDA编程基础与实践》一书的代码。
+
+    - [xlite-dev/CUDA-Learn-Notes](https://github.com/xlite-dev/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/xlite-dev/CUDA-Learn-Notes?style=social"/> : 📚 Modern CUDA Learn Notes with PyTorch for Beginners 🐑. 📚Modern CUDA Learn Notes: 200+ Tensor/CUDA Cores Kernels🎉, HGEMM, FA2 via MMA and CuTe, 98~100% TFLOPS of cuBLAS/FA2.
 
     - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 📚200+ Tensor/CUDA Cores Kernels, ⚡️flash-attn-mma, ⚡️hgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 🎉🎉).
 
@@ -417,6 +421,8 @@
 
     - #### Performance Benchmark
 
+        - [NVIDIA/nvbench](https://github.com/NVIDIA/nvbench) <img src="https://img.shields.io/github/stars/NVIDIA/nvbench?style=social"/> : CUDA Kernel Benchmarking Library.
+
         - [FlagPerf](https://github.com/FlagOpen/FlagPerf) <img src="https://img.shields.io/github/stars/FlagOpen/FlagPerf?style=social"/> : FlagPerf is an open-source software platform for benchmarking AI chips. FlagPerf是智源研究院联合AI硬件厂商共建的一体化AI硬件评测引擎，旨在建立以产业实践为导向的指标体系，评测AI硬件在软件栈组合（模型+框架+编译器）下的实际能力。
 
         - [te42kyfo/gpu-benches](https://github.com/te42kyfo/gpu-benches) <img src="https://img.shields.io/github/stars/te42kyfo/gpu-benches?style=social"/> : collection of benchmarks to measure basic GPU capabilities.
@@ -446,6 +452,8 @@
     - #### Attention and Transformer Framework
 
         - [FlashAttention](https://github.com/Dao-AILab/flash-attention) <img src="https://img.shields.io/github/stars/Dao-AILab/flash-attention?style=social"/> : Fast and memory-efficient exact attention. "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness". (**[arXiv 2022](https://arxiv.org/abs/2205.14135)**).
+
+        - [SageAttention](https://github.com/thu-ml/SageAttention) <img src="https://img.shields.io/github/stars/thu-ml/SageAttention?style=social"/> : Quantized Attention that achieves speedups of 2.1-3.1x and 2.7-5.1x compared to FlashAttention2 and xformers, respectively, without lossing end-to-end metrics across various models. "SageAttention: Accurate 8-Bit Attention for Plug-and-play Inference Acceleration". (**[arXiv 2024](https://arxiv.org/abs/2410.02367)**). "SageAttention2: Efficient Attention with Thorough Outlier Smoothing and Per-thread INT4 Quantization". (**[arXiv 2024](https://arxiv.org/abs/2411.10958)**).
 
         - [fla-org/flash-linear-attention](https://github.com/fla-org/flash-linear-attention) <img src="https://img.shields.io/github/stars/fla-org/flash-linear-attention?style=social"/> : 🚀 Efficient implementations of state-of-the-art linear attention models in Pytorch and Triton.
 
@@ -525,6 +533,8 @@
             - [MooreThreads/vllm_musa](https://github.com/MooreThreads/vllm_musa) <img src="https://img.shields.io/github/stars/MooreThreads/vllm_musa?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
             - [dusty-nv/jetson-inference](https://github.com/dusty-nv/jetson-inference) <img src="https://img.shields.io/github/stars/dusty-nv/jetson-inference?style=social"/> : Hello AI World guide to deploying deep-learning inference networks and deep vision primitives with TensorRT and NVIDIA Jetson.
+
+            - [m0dulo/InferSpore](https://github.com/m0dulo/InferSpore) <img src="https://img.shields.io/github/stars/m0dulo/InferSpore?style=social"/> : 🌱 A fully independent Large Language Model (LLM) inference engine, built leveraging cuBLAS and cub. 🧩
 
 
 
@@ -918,6 +928,14 @@
     - #### Signal Processing
 
         - [Alisah-Ozcan/GPU-FFT](https://github.com/Alisah-Ozcan/GPU-FFT) <img src="https://img.shields.io/github/stars/Alisah-Ozcan/GPU-FFT?style=social"/> : Welcome to the GPU-FFT-Optimization repository! We present cutting-edge algorithms and implementations for optimizing the Fast Fourier Transform (FFT) on Graphics Processing Units (GPUs).
+
+    - #### Mesh Processing
+
+        - [owensgroup/RXMesh](https://github.com/owensgroup/RXMesh) <img src="https://img.shields.io/github/stars/owensgroup/RXMesh?style=social"/> : GPU-accelerated triangle mesh processing. RXMesh is a surface triangle mesh data structure and programming model for processing static meshes on the GPU. RXMesh aims at provides a high-performance, generic, and compact data structure that can handle meshes regardless of their quality (e.g., non-manifold).
+
+    - #### Graph Analytics
+
+        - [rapidsai/cugraphs](https://github.com/rapidsai/cugraph) <img src="https://img.shields.io/github/stars/rapidsai/cugraph?style=social"/> : cuGraph - RAPIDS Graph Analytics Library. [docs.rapids.ai/api/cugraph/stable/](https://docs.rapids.ai/api/cugraph/stable/)
 
 
 
