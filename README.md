@@ -144,15 +144,15 @@
 
     - [MAhaitao999/CUDA_Programming](https://github.com/MAhaitao999/CUDA_Programming) <img src="https://img.shields.io/github/stars/MAhaitao999/CUDA_Programming?style=social"/> : 《CUDA编程基础与实践》一书的代码。
 
-    - [xlite-dev/CUDA-Learn-Notes](https://github.com/xlite-dev/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/xlite-dev/CUDA-Learn-Notes?style=social"/> : 📚 Modern CUDA Learn Notes with PyTorch for Beginners 🐑. 📚Modern CUDA Learn Notes: 200+ Tensor/CUDA Cores Kernels🎉, HGEMM, FA2 via MMA and CuTe, 98~100% TFLOPS of cuBLAS/FA2.
-
-    - [DefTruth//CUDA-Learn-Notes](https://github.com/DefTruth/CUDA-Learn-Notes) <img src="https://img.shields.io/github/stars/DefTruth/CUDA-Learn-Notes?style=social"/> : 📚200+ Tensor/CUDA Cores Kernels, ⚡️flash-attn-mma, ⚡️hgemm with WMMA, MMA and CuTe (98%~100% TFLOPS of cuBLAS/FA2 🎉🎉).
+    - [xlite-dev/LeetCUDA](https://github.com/xlite-dev/LeetCUDA) <img src="https://img.shields.io/github/stars/xlite-dev/LeetCUDA?style=social"/> : 📚LeetCUDA: Modern CUDA Learn Notes with PyTorch for Beginners🐑, 200+ CUDA/Tensor Cores Kernels, HGEMM, FA-2 MMA etc.🔥 [https://github.com/xlite-dev/LeetCUDA](https://github.com/xlite-dev/LeetCUDA)
 
     - [BBuf/how-to-optim-algorithm-in-cuda](https://github.com/BBuf/how-to-optim-algorithm-in-cuda) <img src="https://img.shields.io/github/stars/BBuf/how-to-optim-algorithm-in-cuda?style=social"/> : how to optimize some algorithm in cuda.
 
+    - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
+
     - [RussWong/CUDATutorial](https://github.com/RussWong/CUDATutorial) <img src="https://img.shields.io/github/stars/RussWong/CUDATutorial?style=social"/> : A CUDA tutorial to make people learn CUDA program from 0.
 
-    - [PaddleJitLab/CUDATutorial](https://github.com/PaddleJitLab/CUDATutorial) <img src="https://img.shields.io/github/stars/PaddleJitLab/CUDATutorial?style=social"/> : A self-learning tutorail for CUDA High Performance Programing. 从零开始学习 CUDA 高性能编程。
+    - [RichardAns/CUDA-Programs](https://github.com/RichardAns/CUDA-Programs) <img src="https://img.shields.io/github/stars/RichardAns/CUDA-Programs?style=social"/> : Examples from Programming in Parallel with CUDA.
 
     - [bertmaher/simplegemm](https://github.com/bertmaher/simplegemm) <img src="https://img.shields.io/github/stars/bertmaher/simplegemm?style=social"/> : Pingpong GEMM from scratch. I've been really excited to learn the lowest-level details of GPU matrix multiplication recently, so I was really inspired to read Pranjal Shankhdhar's fantastic blog post [Outperforming cuBLAS on H100](https://cudaforfun.substack.com/p/outperforming-cublas-on-h100-a-worklog), which implements a fast gemm from first principles in CUDA, and actually outperforms cuBLAS. In a similar vein, I wanted to understand the [pingpong](https://github.com/NVIDIA/cutlass/blob/main/media/docs/efficient_gemm.md#hopper-warp-specialization) gemm algorithm in detail. So, I used [https://github.com/pranjalssh/fast.cu](https://github.com/pranjalssh/fast.cu) as a starting point, and wrote this kernel to see if I could match CUTLASS's pingpong implementation myself, using hand-written CUDA.
 
