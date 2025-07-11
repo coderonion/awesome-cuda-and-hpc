@@ -1,7 +1,7 @@
 # Awesome-CUDA-and-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
+🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [CUTLASS](https://github.com/NVIDIA/cutlass), [cuDNN](https://developer.nvidia.com/cudnn), [NCCL](https://github.com/NVIDIA/nccl), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TileLang](https://github.com/tile-ai/tilelang), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-and-HPC](#awesome-cuda-and-hpc)
@@ -11,6 +11,7 @@
     - [CUDA Learning](#cuda-learning)
     - [TensorRT Learning](#tensorrt-learning)
     - [Triton Learning](#triton-learning)
+    - [TileLang Learning](#tileLang-learning)
     - [TVM Learning](#tvm-learning)
     - [MLIR Learning](#mlir-learning)
     - [HPC Learning](#hpc-learning)
@@ -79,6 +80,8 @@
 
   - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Triton is a language and compiler for parallel programming. It aims to provide a Python-based programming environment for productively writing custom DNN compute kernels capable of running at maximal throughput on modern GPU hardware. [triton-lang.org/](https://triton-lang.org/)
 
+  - [TileLang](https://github.com/tile-ai/tilelang) <img src="https://img.shields.io/github/stars/tile-ai/tilelang?style=social"/> : Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels. [tilelang.com/](https://tilelang.com/)
+
   - [TVM](https://github.com/apache/tvm) <img src="https://img.shields.io/github/stars/apache/tvm?style=social"/> : Open deep learning compiler stack for cpu, gpu and specialized accelerators. [tvm.apache.org/](https://tvm.apache.org/)
 
   - [TileLang](https://github.com/tile-ai/tilelang) <img src="https://img.shields.io/github/stars/tile-ai/tilelang?style=social"/> : Domain-specific language designed to streamline the development of high-performance GPU/CPU kernels.
@@ -121,6 +124,12 @@
     - [NVIDIA CUDA C++ Programming Guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html) : CUDA C++ Programming Guide.
 
     - [NVIDIA CUDA C++ Best Practices Guide](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html) : CUDA C++ Best Practices Guide.
+
+    - [NVIDIA cuBLAS Programming Guide](https://docs.nvidia.com/cuda/cublas/index.html) : NVIDIA cuBLAS Documentation.
+
+    - [NVIDIA CUTLASS Programming Guide](https://docs.nvidia.com/cutlass/index.html) : NVIDIA CUTLASS Documentation.
+
+    - [NVIDIA NCCL Programming Guide](https://docs.nvidia.com/deeplearning/nccl/user-guide/docs/index.html) : NVIDIA Collective Communication Library (NCCL) Documentation.
 
     - [NVIDIA PTX(Parallel Thread Execution) Programming Guide](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) : NVIDIA PTX (Parallel Thread Execution) Programming Guide.
 
@@ -264,6 +273,16 @@
     - [Triton Docs](https://triton-lang.org/main/index.html) : Triton Documentation.
 
     - [hyperai/triton-cn](https://github.com/hyperai/triton-cn) <img src="https://img.shields.io/github/stars/hyperai/triton-cn?style=social"/> : Triton Documentation in Chinese Simplified / Triton 中文文档. [triton.hyper.ai](https://triton.hyper.ai/)
+
+
+
+  - ### TileLang Learning
+
+    - [TileLang](https://github.com/tile-ai/tilelang) <img src="https://img.shields.io/github/stars/tile-ai/tilelang?style=social"/> : Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels. [tilelang.com/](https://tilelang.com/)
+
+    - [TileLang Docs](https://tilelang.com/) : TileLang Documentation.
+
+
 
 
   - ### TVM Learning
