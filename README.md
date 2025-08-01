@@ -529,6 +529,8 @@
 
             - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
+            - [Nano-vLLM](https://github.com/GeeeekExplorer/nano-vllm) <img src="https://img.shields.io/github/stars/GeeeekExplorer/nano-vllm?style=social"/> : A lightweight vLLM implementation built from scratch.
+
             - [SGLang](https://github.com/sgl-project/sglang) <img src="https://img.shields.io/github/stars/sgl-project/sglang?style=social"/> : SGLang is a fast serving framework for large language models and vision language models. [docs.sglang.ai/](https://docs.sglang.ai/)
 
             - [llama.cpp](https://github.com/ggerganov/llama.cpp) <img src="https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social"/> : LLM inference in C/C++.
@@ -548,6 +550,8 @@
             - [GPUStack](https://github.com/gpustack/gpustack) <img src="https://img.shields.io/github/stars/gpustack/gpustack?style=social"/> : GPUStack is an open-source GPU cluster manager for running AI models. Manage GPU clusters for running AI models. [gpustack.ai](https://gpustack.ai/)
 
             - [Lamini](https://github.com/lamini-ai/lamini) <img src="https://img.shields.io/github/stars/lamini-ai/lamini?style=social"/> : The Official Python Client for Lamini's API. [lamini.ai/](https://lamini.ai/)
+
+            - [triton-inference-server/tensorrtllm_backend](https://github.com/triton-inference-server/tensorrtllm_backend) <img src="https://img.shields.io/github/stars/triton-inference-server/tensorrtllm_backend?style=social"/> : The Triton TensorRT-LLM Backend.
 
             - [datawhalechina/self-llm](https://github.com/datawhalechina/self-llm) <img src="https://img.shields.io/github/stars/datawhalechina/self-llm?style=social"/> :  《开源大模型食用指南》基于Linux环境快速部署开源大模型，更适合中国宝宝的部署教程。
 
@@ -780,8 +784,9 @@
 
         - [FlagGems](https://github.com/FlagOpen/FlagGems) <img src="https://img.shields.io/github/stars/FlagOpen/FlagGems?style=social"/> : FlagGems is an operator library for large language models implemented in the Triton Language. FlagGems is a high-performance general operator library implemented in [OpenAI Triton](https://github.com/openai/triton). It builds on a collection of backend neutral kernels that aims to accelerate LLM training and inference across diverse hardware platforms.
 
-        - [linxihui/dkernel](https://github.com/linxihui/dkernel) <img src="https://img.shields.io/github/stars/linxihui/dkernel?style=social"/> : This repo contains customized CUDA kernels written in OpenAI Triton. As of now, it contains the sparse attention kernel used in [phi-3-small models](https://huggingface.co/microsoft/Phi-3-small-8k-instruct). The sparse attention is also supported in vLLM for efficient inference.
+        - [harleyszhang/lite_llama](https://github.com/harleyszhang/lite_llama) <img src="https://img.shields.io/github/stars/harleyszhang/lite_llama?style=social"/> : A light llama-like llm inference framework based on the triton kernel.
 
+        - [linxihui/dkernel](https://github.com/linxihui/dkernel) <img src="https://img.shields.io/github/stars/linxihui/dkernel?style=social"/> : This repo contains customized CUDA kernels written in OpenAI Triton. As of now, it contains the sparse attention kernel used in [phi-3-small models](https://huggingface.co/microsoft/Phi-3-small-8k-instruct). The sparse attention is also supported in vLLM for efficient inference.
 
 
     - #### Triton Inference Framework
