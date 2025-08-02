@@ -1,7 +1,7 @@
 # Awesome-CUDA-and-HPC
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [CUTLASS](https://github.com/NVIDIA/cutlass), [cuDNN](https://developer.nvidia.com/cudnn), [NCCL](https://github.com/NVIDIA/nccl), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TileLang](https://github.com/tile-ai/tilelang), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
+🚀🚀🚀 This repository lists some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [CUTLASS](https://github.com/NVIDIA/cutlass), [cuDNN](https://developer.nvidia.com/cudnn), [NCCL](https://github.com/NVIDIA/nccl), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TileLang](https://github.com/tile-ai/tilelang), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [LLVM](https://llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
 ## Contents
 - [Awesome-CUDA-and-HPC](#awesome-cuda-and-hpc)
@@ -14,6 +14,7 @@
     - [TileLang Learning](#tileLang-learning)
     - [TVM Learning](#tvm-learning)
     - [MLIR Learning](#mlir-learning)
+    - [LLVM Learning](#llvm-learning)
     - [HPC Learning](#hpc-learning)
   - [Frameworks](#frameworks)
     - [CUDA Frameworks](#cuda-frameworks)
@@ -78,13 +79,15 @@
 
   - [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) <img src="https://img.shields.io/github/stars/NVIDIA/TensorRT-LLM?style=social"/> : TensorRT-LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and build TensorRT engines that contain state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT-LLM also contains components to create Python and C++ runtimes that execute those TensorRT engines. [nvidia.github.io/TensorRT-LLM](https://nvidia.github.io/TensorRT-LLM)
 
-  - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Triton is a language and compiler for parallel programming. It aims to provide a Python-based programming environment for productively writing custom DNN compute kernels capable of running at maximal throughput on modern GPU hardware. [triton-lang.org/](https://triton-lang.org/)
+  - [Triton](https://github.com/triton-lang/triton) <img src="https://img.shields.io/github/stars/triton-lang/triton?style=social"/> : Development repository for the Triton language and compiler. This is the development repository of Triton, a language and compiler for writing highly efficient custom Deep-Learning primitives. The aim of Triton is to provide an open-source environment to write fast code at higher productivity than CUDA, but also with higher flexibility than other existing DSLs. [triton-lang.org/](https://triton-lang.org/)
 
-  - [TileLang](https://github.com/tile-ai/tilelang) <img src="https://img.shields.io/github/stars/tile-ai/tilelang?style=social"/> : Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels. [tilelang.com/](https://tilelang.com/)
+  - [TileLang](https://github.com/tile-ai/tilelang) <img src="https://img.shields.io/github/stars/tile-ai/tilelang?style=social"/> : Domain-specific language designed to streamline the development of high-performance GPU/CPU/Accelerators kernels. Tile Language (tile-lang) is a concise domain-specific language designed to streamline the development of high-performance GPU/CPU kernels (e.g., GEMM, Dequant GEMM, FlashAttention, LinearAttention). By employing a Pythonic syntax with an underlying compiler infrastructure on top of [TVM](https://tvm.apache.org/), tile-lang allows developers to focus on productivity without sacrificing the low-level optimizations necessary for state-of-the-art performance. [tilelang.com/](https://tilelang.com/)
 
   - [TVM](https://github.com/apache/tvm) <img src="https://img.shields.io/github/stars/apache/tvm?style=social"/> : Open deep learning compiler stack for cpu, gpu and specialized accelerators. [tvm.apache.org/](https://tvm.apache.org/)
 
   - [MLIR](https://mlir.llvm.org/) : Multi-Level Intermediate Representation Compiler Framework. The MLIR project is a novel approach to building reusable and extensible compiler infrastructure. MLIR aims to address software fragmentation, improve compilation for heterogeneous hardware, significantly reduce the cost of building domain specific compilers, and aid in connecting existing compilers together.
+
+  - [LLVM](https://llvm.org/) : The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
 
   - [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) : PTX, a low-level parallel thread execution virtual machine and instruction set architecture (ISA).
 
@@ -92,7 +95,7 @@
 
 ## Awesome List
 
-  - [awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-and-hpc?style=social"/> : some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
+  - [awesome-cuda-and-hpc](https://github.com/coderonion/awesome-cuda-and-hpc) <img src="https://img.shields.io/github/stars/coderonion/awesome-cuda-and-hpc?style=social"/> : some awesome public [CUDA](https://developer.nvidia.com/cuda-zone), [cuda-python](https://github.com/NVIDIA/cuda-python), [cuBLAS](https://developer.nvidia.com/cublas), [cuDNN](https://developer.nvidia.com/cudnn), [CUTLASS](https://github.com/NVIDIA/cutlass), [TensorRT](https://developer.nvidia.com/tensorrt), [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM), [Triton](https://github.com/triton-lang/triton), [TVM](https://tvm.apache.org/), [MLIR](https://mlir.llvm.org/), [LLVM](https://llvm.org/), [PTX](https://docs.nvidia.com/cuda/parallel-thread-execution/index.html) and High Performance Computing (HPC) projects.
 
   - [Erkaman/Awesome-CUDA](https://github.com/Erkaman/Awesome-CUDA) <img src="https://img.shields.io/github/stars/Erkaman/Awesome-CUDA?style=social"/> : This is a list of useful libraries and resources for CUDA development.
 
@@ -235,6 +238,8 @@
 
     - [lucasdelimanogueira/PyNorch](https://github.com/lucasdelimanogueira/PyNorch) <img src="https://img.shields.io/github/stars/lucasdelimanogueira/PyNorch?style=social"/> :  Recreating PyTorch from scratch (C/C++, CUDA, NCCL and Python, with multi-GPU support and automatic differentiation!)
 
+    - [YuxueYang1204/CudaDemo](https://github.com/YuxueYang1204/CudaDemo) <img src="https://img.shields.io/github/stars/YuxueYang1204/CudaDemo?style=social"/> :  A simple demo to show how to implement custom operators in PyTorch with cuda/c++. More details can be seen in [知乎: 用Cuda实现PyTorch算子](https://zhuanlan.zhihu.com/p/595851188).
+
     - [xgqdut2016/cuda_code](https://github.com/xgqdut2016/cuda_code) <img src="https://img.shields.io/github/stars/xgqdut2016/cuda_code?style=social"/> : easy cuda code. CUDA代码简单入门。
 
     - [xgqdut2016/hpc_project](https://github.com/xgqdut2016/hpc_project) <img src="https://img.shields.io/github/stars/xgqdut2016/hpc_project?style=social"/> : some hpc project for learning.
@@ -291,9 +296,7 @@
 
   - ### MLIR Learning
 
-    - [LLVM Docs](https://llvm.org/docs/) : LLVM Documentation.
-
-    - [MLIR Docs](https://mlir.llvm.org/docs/) : MLIR Code Documentation.
+    - [MLIR Docs](https://mlir.llvm.org/docs/) : MLIR Documentation.
 
     - [BBuf/tvm_mlir_learn](https://github.com/BBuf/tvm_mlir_learn) <img src="https://img.shields.io/github/stars/BBuf/tvm_mlir_learn?style=social"/> : compiler learning resources collect.
 
@@ -305,6 +308,10 @@
 
     - [yao-jiashu/KernelCodeGen](https://github.com/yao-jiashu/KernelCodeGen) <img src="https://img.shields.io/github/stars/yao-jiashu/KernelCodeGen?style=social"/> : GEMM/Conv2d CUDA/HIP kernel code generation using MLIR.
 
+
+  - ### LLVM Learning
+
+    - [LLVM Docs](https://llvm.org/docs/) : LLVM Documentation.
 
 
   - ### HPC Learning
@@ -532,6 +539,8 @@
             - [Nano-vLLM](https://github.com/GeeeekExplorer/nano-vllm) <img src="https://img.shields.io/github/stars/GeeeekExplorer/nano-vllm?style=social"/> : A lightweight vLLM implementation built from scratch.
 
             - [SGLang](https://github.com/sgl-project/sglang) <img src="https://img.shields.io/github/stars/sgl-project/sglang?style=social"/> : SGLang is a fast serving framework for large language models and vision language models. [docs.sglang.ai/](https://docs.sglang.ai/)
+
+            - [sgl-project/sgl-learning-materials](https://github.com/sgl-project/sgl-learning-materials) <img src="https://img.shields.io/github/stars/sgl-project/sgl-learning-materials?style=social"/> : Materials for learning SGLang.
 
             - [llama.cpp](https://github.com/ggerganov/llama.cpp) <img src="https://img.shields.io/github/stars/ggerganov/llama.cpp?style=social"/> : LLM inference in C/C++.
 
