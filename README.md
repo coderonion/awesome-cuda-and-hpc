@@ -537,6 +537,7 @@
             - [vLLM](https://github.com/vllm-project/vllm) <img src="https://img.shields.io/github/stars/vllm-project/vllm?style=social"/> : A high-throughput and memory-efficient inference and serving engine for LLMs. [docs.vllm.ai](https://docs.vllm.ai/)
 
             - [Nano-vLLM](https://github.com/GeeeekExplorer/nano-vllm) <img src="https://img.shields.io/github/stars/GeeeekExplorer/nano-vllm?style=social"/> : A lightweight vLLM implementation built from scratch.
+            - [SuperL8](https://github.com/jajmangold/superl8) <img src="https://img.shields.io/github/stars/jajmangold/superl8?style=social"/> : DP4A FlashAttention-2 and GEMM for Volta GPUs. Achieves 46 TOP/s INT8 on CMP 100-210 where tensor cores are firmware-disabled, using the dp4a instruction to bypass disabled tensor cores.
 
             - [SGLang](https://github.com/sgl-project/sglang) <img src="https://img.shields.io/github/stars/sgl-project/sglang?style=social"/> : SGLang is a fast serving framework for large language models and vision language models. [docs.sglang.ai/](https://docs.sglang.ai/)
 
