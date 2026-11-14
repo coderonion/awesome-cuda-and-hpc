@@ -574,6 +574,8 @@
 
             - [m0dulo/InferSpore](https://github.com/m0dulo/InferSpore) <img src="https://img.shields.io/github/stars/m0dulo/InferSpore?style=social"/> : 🌱 A fully independent Large Language Model (LLM) inference engine, built leveraging cuBLAS and cub. 🧩
 
+            - [Aadithya-kl/tinyinfer](https://github.com/Aadithya-kl/tinyinfer) <img src="https://img.shields.io/github/stars/Aadithya-kl/tinyinfer?style=social"/> : A from-scratch CUDA inference engine for Llama-family LLMs. Hand-written f16/INT8/INT4 GEMV and GQA flash-decoding attention kernels, CUDA graphs, no PyTorch or cuBLAS. 235 tok/s on a laptop RTX 3050.
+
 
 
 
