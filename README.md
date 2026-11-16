@@ -733,6 +733,8 @@
 
             - [EugenHotaj/zig_inference](https://github.com/EugenHotaj/zig_inference) <img src="https://img.shields.io/github/stars/EugenHotaj/zig_inference?style=social"/> : Neural Network Inference Engine in Zig.
 
+            - [SMC17/vllm-zig](https://github.com/SMC17/vllm-zig) <img src="https://img.shields.io/github/stars/SMC17/vllm-zig?style=social"/> : Pure-Zig LLM serving substrate with PagedAttention KV cache, BF16 kernels, and persistent futex-backed thread-pool dispatch.
+
 
         - ##### Go Implementation
 
@@ -796,6 +798,8 @@
         - [harleyszhang/lite_llama](https://github.com/harleyszhang/lite_llama) <img src="https://img.shields.io/github/stars/harleyszhang/lite_llama?style=social"/> : A light llama-like llm inference framework based on the triton kernel.
 
         - [linxihui/dkernel](https://github.com/linxihui/dkernel) <img src="https://img.shields.io/github/stars/linxihui/dkernel?style=social"/> : This repo contains customized CUDA kernels written in OpenAI Triton. As of now, it contains the sparse attention kernel used in [phi-3-small models](https://huggingface.co/microsoft/Phi-3-small-8k-instruct). The sparse attention is also supported in vLLM for efficient inference.
+
+        - [SMC17/triton-kernels](https://github.com/SMC17/triton-kernels) <img src="https://img.shields.io/github/stars/SMC17/triton-kernels?style=social"/> : Eight autotuned Triton kernels (softmax, RMSNorm, and FlashAttention-v2 forward and backward in fp32 and fp16) with PyTorch reference harnesses.
 
 
     - #### Triton Inference Framework
